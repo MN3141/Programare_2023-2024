@@ -1,0 +1,6 @@
+g++ program.cpp
+./a.exe
+g++ -g test.cpp //pt depanare
+===============================
+javac program.java
+java program
