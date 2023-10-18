@@ -1,0 +1,3 @@
+Edit=TextBox
+exit(0)=Environment.Exit(0)
+form1->label->Captiom="text"=label.text="text"

@@ -1,0 +1,120 @@
+#include <graphics.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <conio.h>
+
+#include "ex1.h" //includerea bibliotecii proprii ex1.h care trebuie 
+                 //sa fie in directorul curent. 
+
+// prototipuri de functii
+int x[10],y[10],r[10],c[10];
+void OurInitGraph(void);
+void Muta(int *x,int *y,int r,int c,int dx,int dy);
+	
+// variabile Globale, pentru un cerc vom avea urmatoarele date:
+//  - x, y coordonatele centrului cercului
+//  - r raza cercului
+//  - c culoarea cercului
+
+// se vor defini 3 cercuri    
+
+\
+void Init()
+{
+	for(int i=0;i<10;i++)
+	{
+		c[i]=i+1;
+		x[i]=200+10*i;
+		y[i]=200+10*i;
+		r[i]=100+10*i;
+	}
+}
+int main(void)
+{
+// variabile locale
+
+int CercCurent=0; 
+
+// este variabila care ne pastreaza cercul curent ea va putea lua 3 valori:
+// 0 - pentru cercul x1, y1, r1, c1
+// 1 - pentru cercul x2, y2, r2, c2
+// 2 - pentru cercul x3, y3, r3, c3
+//...
+// 9 -pt cercul 10
+int gata=0;
+int dx,dy; 
+
+// cod
+	Init();
+   OurInitGraph(); //se face trecerea in modul grafic
+
+	for(int i=0;i<10;i++)
+	{
+		setcolor(c[i]);
+		circle(x[i],y[i],r[i]);
+	}
+
+// se intra intr-o bucla in care se ramane atata timp cat gata=0
+   while(!gata)
+     switch(getch())      //se asteapta apasarea unei taste
+      {
+       case ESC:          //daca s-a apasat ESC atunci se iasa din bucla
+         gata=1;          //prin valoarea 1 pe care o primeste gata
+         break;
+       case TAB:          //daca s-a apasat TAB se trece la urmatorul cerc
+         CercCurent++;    //trecem la cercul urmator
+         CercCurent%=10;   //dupa cercul 2 urmeaza cercul 0 
+         break;
+       case 0:            //la apasarea unei sageti se genereaza intai 0. 
+         switch(getch())  //apoi codul specific
+          {
+           case LEFT:  dx=-10;dy=  0;break;
+           case RIGHT: dx= 10;dy=  0;break;
+           case UP:    dx=  0;dy=-10;break;
+           case DOWN:  dx=  0;dy= 10;break;
+           default:    dx=  0;dy=  0;break;
+          }
+//in functie de sageata apasata se dau valori deplasarilor:
+//  - dx pe orizontala (valoarea negativa insemnand deplasare la stanga)
+//  - dy pe verticala  (valoarea negativa insemnand deplasare in sus)
+//pasul de deplasare pe orizontala si pe verticala este de 10 pixeli
+
+//dupa stabilirea valorilor pentru deplasari se muta cercul curent
+        Muta((x+CercCurent),(y+CercCurent),*(r+CercCurent), *(c+CercCurent),dx,dy);
+       }
+   closegraph();		//inchiderea modului grafic
+   return 0;
+}
+
+void Muta(int *x,int *y,int r,int color,int dx,int dy)
+//****************************************************
+//functie care face mutarea unui cerc cu deplasamentele
+//dx (pe orizontala) si dy (pe verticala)
+{
+  setcolor(BLACK);  //sterge cercul de pe pozitia veche, prin 
+  circle(*x,*y,r);  //scrierea unui cerc de culoarea fondului (negru) peste el
+
+  *x += dx;         //sunt modificate coordonatele centrului cercului
+  *y += dy;
+
+  setcolor(color);
+  circle(*x,*y,r);  //desenare in noua pozitie a cercului
+}
+
+void OurInitGraph()
+//*********************
+// functie care face trecerea din modul text in modul grafic
+{
+int gdriver = DETECT, gmode, errorcode;  //declarare de variabile locale
+
+  initgraph(&gdriver,&gmode,"");   //initializeaza modul grafic 
+  errorcode = graphresult();       //citeste rezultatul initializarii
+   if (errorcode != grOk)          //se testeaza daca a aparut o eroare la 
+                                   //initializare, in caz de eroare se afiseaza 
+    {                              //eroarea si apoi se inchide programul
+      printf("Graphics error: %s\n", grapherrormsg(errorcode));
+      printf("Press any key to halt:");
+      getch();
+      exit(1);
+    }
+}
