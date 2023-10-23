@@ -1,5 +1,5 @@
 [Project]
-name=Lab1
+name=circuli
 type=0
 defaultConfig=0
 
@@ -26,9 +26,9 @@ optimizeLevel=0
 
 // linker
 libraryPath=
-outputFilename=Debug\Lab1.exe
+outputFilename=Debug\circuli.exe
 libraries=
-extraLinkerOptions=-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+extraLinkerOptions=
 ignoreStartupFile=0
 ignoreDefaultLibs=0
 stripExecutableFile=0
@@ -64,7 +64,7 @@ optimizeLevel=2
 
 // linker
 libraryPath=
-outputFilename=Release\Lab1.exe
+outputFilename=Release\circuli.exe
 libraries=
 extraLinkerOptions=
 ignoreStartupFile=0
@@ -80,11 +80,11 @@ resourceIncludeDirectory=
 extraResourceOptions=
 
 [Source]
-1=EX1.C
+
 [Header]
-1=EX1.H
+
 [Resource]
+
 [Other]
+
 [History]
-EX1.C,826
-EX1.H,0
