@@ -1,3 +1,4 @@
 Edit=TextBox
 exit(0)=Environment.Exit(0)
-form1->label->Captiom="text"=label.text="text"
+form1->label->Caption="text"=label.text="text"
+ShowMessage()=MessageBox.Show()

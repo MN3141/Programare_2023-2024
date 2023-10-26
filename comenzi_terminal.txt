@@ -1,3 +1,5 @@
+code . -Lansare VS Code
+===============================
 g++ program.cpp
 ./a.exe
 g++ -g test.cpp //pt depanare
