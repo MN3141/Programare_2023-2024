@@ -1,0 +1,17 @@
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\bin\Debug\net6.0-windows\afisaz_baze_nr.exe
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\bin\Debug\net6.0-windows\afisaz_baze_nr.deps.json
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\bin\Debug\net6.0-windows\afisaz_baze_nr.runtimeconfig.json
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\bin\Debug\net6.0-windows\afisaz_baze_nr.dll
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\bin\Debug\net6.0-windows\afisaz_baze_nr.pdb
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.csproj.AssemblyReference.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.form.resources
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.csproj.GenerateResource.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.AssemblyInfoInputs.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.AssemblyInfo.cs
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.csproj.CoreCompileInputs.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.dll
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\refint\afisaz_baze_nr.dll
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.pdb
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\afisaz_baze_nr.genruntimeconfig.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\afisaz_baze_nr\obj\Debug\net6.0-windows\ref\afisaz_baze_nr.dll
