@@ -9,9 +9,8 @@ public class Main {
     String str2=null;
     int x=0;
     FileInputStream fin=null;
-    FileInputStream fin2=null;
         try{
-            fin=new FileInputStream("test2");//fisierul nr trb pus in src!!
+            fin=new FileInputStream("test2.txt");//fisierul nr trb pus in src!!
         }
         catch (FileNotFoundException e)
         {
@@ -24,7 +23,7 @@ public class Main {
 System.out.println(str);
            }
            citire.close();
-           System.in.read();
+           System.in.read();//echivalent cu getch() din C
        }
        catch (IOException e)
        {

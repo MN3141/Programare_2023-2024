@@ -1,0 +1,7 @@
+Clasa abstracta:
+	-declarare metode
+	-o clasa poate fi extinsa doar o data
+Interfata:
+	-declarare metode
+	-membrii sunt considerati final(adica constante) si static
+	-nu exista limite de implementare
