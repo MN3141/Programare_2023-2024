@@ -1,0 +1,266 @@
+﻿body         {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #000000;	
+	background-color: #FFFFFF;
+	font-size: 10pt;
+	margin: 0 }
+
+.TableSection {
+	padding: 0px;
+	margin:  0px;
+	border-left-color: #666666;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-color: #666666;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: #666666;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: #666666;
+	border-bottom-style: solid;
+	border-bottom-width: 1px; }
+
+.TableHeader {
+      background-color: #3366CC;
+      height: 12pt;
+      
+      border-top-style: solid;
+      border-top-width: 1pt;
+      border-top-color: navy;
+      
+      border-left-style: solid;
+      border-left-width: 1pt;
+      border-left-color: navy;
+      
+      border-bottom-color: #000000;
+      border-bottom-width: 1pt;
+      border-bottom-style: solid;
+      
+      border-right-style: solid;
+      border-right-width: 1pt;
+      border-right-color: navy;
+}
+
+.TableHeaderText {
+	font-family: Georgia, Cambria, "Bodoni MT", serif;
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: center;
+    color: #FFFF99;
+}
+
+.BulletedList {
+	margin-left:   18px;
+	margin-top:    0px;
+	margin-right:  4px;
+	margin-bottom: 0px;
+	color:          blue;
+}
+
+.LessonsList {
+	margin-top:   4pt;
+	margin-left:  0pt;
+	height:      14pt;
+	vertical-align: middle;
+	list-style-type: square;
+}
+
+.BulletedList2 {
+	margin-left:   18px;
+	margin-top:    0px;
+	margin-right:  2px;
+	margin-bottom: 0px;
+	color:         #3399FF;
+}
+
+.LessonsList2 {
+	margin-top:   4pt;
+	margin-left:  0pt;
+	height:      12pt;
+	list-style-type: disc;
+}
+
+#InterList {
+	padding:       3px;
+	margin-bottom: 0px;
+}
+
+#InterList ul {
+    margin-left:     0px;
+	padding-left:    0px;
+	display:         inline;
+	border:          none;
+}
+
+#InterList ul li {
+	margin-left:     0px;
+	padding-left:    0px;
+	border:          none;
+	list-style-type: square;
+	display:         inline;
+}
+
+.apptitle   {
+  font-family: Garamond, Georgia, 'Times New Roman', Serif;
+  font-size: 14pt;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 0pt;
+  font-weight: bold }
+
+.SubTitle   {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:   12pt;
+  color:       #0066FF;
+  margin-top:  2pt;
+  font-weight: bold }
+
+.parajust {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 10pt;
+	text-align: Justify;
+	margin-top: 6pt;
+	margin-bottom: 10pt;
+	margin-left: 4pt }
+
+.beam    {
+	font-family:    Helvetica, Verdana, Tahoma, sans-serif;
+	color:          #FF0000;
+	font-size:      10px;
+	vertical-align: middle;
+}
+
+.arttitle { 
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: normal; 
+	font-size: 8pt }
+
+a.arttitle:link       {  
+	color: blue;
+	text-decoration: none }
+	
+a.arttitle:alink      {  
+	color: navy;
+	text-decoration: none }
+
+a.arttitle:visited    {   
+	color: blue;
+	text-decoration: none }
+
+a.arttitle:hover     {  
+	color: #3399FF;
+	text-decoration: none }
+
+.toolbarlinks { 
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-weight: bold; 
+	font-size: 10pt }
+	
+a.toolbarlinks:link       {  
+	color: white;
+    font-weight: bold;
+	text-decoration: none }
+	
+a.toolbarlinks:alink      {  
+	color: yellow;
+    font-weight: bold;
+	text-decoration: none }
+
+a.toolbarlinks:visited    {   
+	color: white;
+    font-weight: bold;
+	text-decoration: none }
+
+a.toolbarlinks:hover     {  
+	color: #FFCC66;
+    font-weight: bold;
+	text-decoration: none }
+
+.Lessons {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 8pt }
+
+a.Lessons:link {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  color: blue;
+  text-decoration: none }
+
+a.Lessons:alink {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #CC3300;
+  text-decoration: none }
+
+a.Lessons:visited {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  color: navy;
+  text-decoration: none }
+
+a.Lessons:hover {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  color: #FF0000;
+  text-decoration: underline }
+
+.Controls {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 8pt }
+
+a.Controls:link {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  color: blue;
+  text-decoration: none }
+
+a.Controls:alink {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #CC3300;
+  text-decoration: none }
+
+a.Controls:visited {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  color: #FF0000;
+  text-decoration: none }
+
+a.Controls:hover {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  color: maroon;
+  text-decoration: underline }
+	
+a:link       { 
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	font-size: 8pt;
+    font-weight: normal;
+	color: #CC6600;
+	text-decoration: none }
+	
+a:alink      {  
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	font-size: 8pt;
+    font-weight: normal;
+	color: white;
+	text-decoration: none }
+
+a:visited    {   
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	font-size: 8pt;
+    font-weight: normal;
+	color: maroon;
+	text-decoration: none }
+
+a:hover     {  
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	font-size: 8pt;
+    font-weight: normal;
+	color: #CC6600;
+	text-decoration: underline }
+
+  

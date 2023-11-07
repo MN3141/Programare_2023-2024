@@ -1,0 +1,5 @@
+In Java componentele interfetei sunt definite toate intr-o functie de initializare.
+La fel si pentru evenimentele asociate acestora(fiind gestionate de o metoda Listener() )
+Componentele trb adaugate in fereastra cu metoda add(componenta,restrictie);
+!!Numele functiilor folosite pentru a trata evenimentele nu pot fi alese de programator!
+Pt a folosi acelasi Listener() in cadrul ei definim(sau declaram) o alta functie;
