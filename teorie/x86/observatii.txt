@@ -1,5 +1,6 @@
-offset *nume_var* = pointer catre locatia *nume var*
-*type* ptr *nume_var*=pointer catre locatia *nume var* de tipul *type*
-var+n<=>var[n],unde n nr natural
-mov byte ptr [bx][si],2-scrie in locatia de memorie ds+bx+si valoarea 2 pe 1 octet
-de multe ori(sau mereu) operanzii unui instructiuni nu pot fi amandoi locatii de memorie
+-offset *nume_var* = pointer catre locatia *nume var*
+-*type* ptr *nume_var*=pointer catre locatia *nume var* de tipul *type*
+-var+n<=>var[n],unde n nr natural
+-mov byte ptr [bx][si],2-scrie in locatia de memorie ds+bx+si valoarea 2 pe 1 octet
+-de multe ori(sau mereu) operanzii unui instructiuni nu pot fi amandoi locatii de memorie
+-in 8086 pot fi definite mai multe segmente de cod/stiva/cod/date

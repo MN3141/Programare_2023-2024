@@ -28,6 +28,6 @@ int 21h
 ret
 afisare endp
 sfarsit: mov ax,4c00h
-;funcŃia DOS de ieşire în sistemul de operare
+;functia DOS de ieşire în sistemul de operare
 int 21h
 end start

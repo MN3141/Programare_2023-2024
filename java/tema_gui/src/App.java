@@ -160,6 +160,7 @@ void clearButton_actiune(ActionEvent e)
     gradeList.removeAll();
     rightTableModel.setRowCount(0);
     counter=0;
+    
 }
 void studentTextField_keyPressed(KeyEvent e)
 {
