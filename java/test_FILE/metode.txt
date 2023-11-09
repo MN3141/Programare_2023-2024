@@ -1,0 +1,11 @@
+getName()-nume fisier/director
+.exists()-de la sine inteles
+delete() – șterge fișierul sau directorul;
+canRead() / canWrite() – returnează true dacă aplicația poate citi / modifica fișierul;
+getPath() / getAbsolutePath() / getCanonicalPath() – returnează calea fișierului
+length() – returnează dimensiunea în octeți a fișierului;
+mkdir()-creare director
+renameTo() – permite redenumirea fișierelor, returnând true în caz de succes
+isFile() / isDirectory() – returnează true dacă e fișier / director
+separator() / separatorChar() – returnează un String / char reprezentând separatorul dependent de sistem: '/' în UNIX respectiv '\' în Win32
+createNewFile() -creare fisier(are nevoie de tratare de exceptio IOException)
