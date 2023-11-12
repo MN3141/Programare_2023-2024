@@ -1,3 +1,9 @@
+git init
+git add 
+git push -m ' '
+git pull
+git remote add origin ' '
+===============================
 code . -Lansare VS Code
 ===============================
 g++ program.cpp
