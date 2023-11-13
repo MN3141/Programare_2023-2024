@@ -34,4 +34,6 @@ DO2:
 	loop DO2
 ret
 print endp
+	mov ah,4ch
+	int 21h
 end start
