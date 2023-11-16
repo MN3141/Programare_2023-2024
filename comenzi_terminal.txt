@@ -1,8 +1,9 @@
 git init
 git add 
-git push -m ' '
+git commit -m ' '
 git pull
 git remote add origin ' '
+git push -f ;pt a forta incarcarea codului
 ===============================
 code . -Lansare VS Code
 ===============================
