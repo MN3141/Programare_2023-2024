@@ -7,15 +7,18 @@
 #include <Controls.hpp>
 #include <StdCtrls.hpp>
 #include <Forms.hpp>
+#include <ExtCtrls.hpp>
+#include <Graphics.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
-        TLabel *labelMessage;
-        TLabel *labelCode;
-        TButton *btnOk;
-        TMemo *Memo1;
-        void __fastcall btnOkClick(TObject *Sender);
+        TButton *btnAdd;
+        TMemo *memo1;
+        TImage *imago;
+        TButton *clearBtn;
+        void __fastcall btnAddClick(TObject *Sender);
+        void __fastcall clearBtnClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);

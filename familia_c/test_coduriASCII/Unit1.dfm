@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 244
-  Top = 101
+  Left = 277
+  Top = 170
   Width = 1044
   Height = 540
   Caption = 'Form1'
@@ -13,35 +13,36 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object codeLabel: TLabel
-    Left = 264
-    Top = 80
-    Width = 50
+  object labelMessage: TLabel
+    Left = 168
+    Top = 72
+    Width = 72
     Height = 13
-    Caption = 'codeLabel'
+    Caption = 'CODURI ASCII'
   end
-  object label: TLabel
-    Left = 256
-    Top = 48
-    Width = 185
-    Height = 13
-    Caption = 'Codurile ASCII ale simbolurilor introduse'
-  end
-  object inputEdit: TEdit
-    Left = 336
-    Top = 232
-    Width = 265
-    Height = 21
-    TabOrder = 0
-    Text = 'inputEdit'
-  end
-  object okButton: TButton
+  object labelCode: TLabel
     Left = 160
-    Top = 352
-    Width = 153
-    Height = 57
+    Top = 96
+    Width = 3
+    Height = 13
+  end
+  object btnOk: TButton
+    Left = 104
+    Top = 272
+    Width = 121
+    Height = 65
     Caption = 'OK'
+    TabOrder = 0
+    OnClick = btnOkClick
+  end
+  object Memo1: TMemo
+    Left = 320
+    Top = 120
+    Width = 361
+    Height = 137
+    Lines.Strings = (
+      'Memo1')
+    ScrollBars = ssVertical
     TabOrder = 1
-    OnClick = okButtonClick
   end
 end

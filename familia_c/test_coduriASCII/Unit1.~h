@@ -11,11 +11,11 @@
 class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
-        TEdit *inputEdit;
-        TLabel *codeLabel;
-        TButton *okButton;
-        TLabel *label;
-        void __fastcall okButtonClick(TObject *Sender);
+        TLabel *labelMessage;
+        TLabel *labelCode;
+        TButton *btnOk;
+        TMemo *Memo1;
+        void __fastcall btnOkClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);

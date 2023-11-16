@@ -7,20 +7,22 @@
 #include <Controls.hpp>
 #include <StdCtrls.hpp>
 #include <Forms.hpp>
+#include <ScktComp.hpp>
 //---------------------------------------------------------------------------
-class TForm1 : public TForm
+class TfServer : public TForm
 {
 __published:	// IDE-managed Components
-        TLabel *labelMessage;
-        TLabel *labelCode;
-        TButton *btnOk;
-        TMemo *Memo1;
-        void __fastcall btnOkClick(TObject *Sender);
+        TButton *btnExit;
+        TMemo *mText;
+        TServerSocket *ssServer;
+        void __fastcall btnExitClick(TObject *Sender);
+        void __fastcall ssServerClientRead(TObject *Sender,
+          TCustomWinSocket *Socket);
 private:	// User declarations
 public:		// User declarations
-        __fastcall TForm1(TComponent* Owner);
+        __fastcall TfServer(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TForm1 *Form1;
+extern PACKAGE TfServer *fServer;
 //---------------------------------------------------------------------------
 #endif
