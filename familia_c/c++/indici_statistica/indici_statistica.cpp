@@ -57,6 +57,22 @@ float median(int* grades,int begin,int end)
 	return x;
 
 }
+float variance(int* grades,int begin,int end) //pt toata populatia
+{
+	//Variance=Sum((xi-u)^2)/n
+	float v=0;
+	float sum=0;
+	float u=mean(grades,begin,end); //u=miu
+	for(int i=begin;i<end;i++)
+		sum=sum+ ( *(grades+i)-u )* (*(grades+i)-u);
+	v=sum/(end-begin);
+	return v;
+}
+double standardDeviation(int* grades,int begin,int end)//pt toata populatia
+{
+	double temp=variance(grades,begin,end);
+	return sqrt(temp);
+}
 int main()
 {
 	Init();
@@ -64,7 +80,6 @@ int main()
 	for(int i=0;i<n;i++)
 		cout<<*(grades+i)<<' ';
 	cout<<endl;
-	cout<<mean(grades,0,n)<<endl;
-	cout<<geomean(grades,0,n)<<endl;
-	cout<<median(grades,0,n)<<endl;
+	cout<<variance(grades,0,n)<<endl;
+	cout<<standardDeviation(grades,0,n)<<endl;
 }

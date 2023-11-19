@@ -27,6 +27,9 @@ public class Main {
        {
            System.out.println("Eroare in crearea fisierului!");
        }
-
+        File test=new File("C:\\Arhiva_ULBS\\Proiecte\\Anul_II\\programare_2023-2024\\java\\test_FILE");
+       if(test.isDirectory()==true)
+           System.out.println(test.getName()+" este director.");
+       else System.out.println(test.getName()+" este fisier.");
     }
 }
