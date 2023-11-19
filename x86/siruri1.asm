@@ -1,3 +1,5 @@
+;Să se scrie un program care afişează pe ecran numărul de apariţii a
+;unui şir într-un alt şir
 .model small
 .stack 100
 .data
@@ -8,7 +10,7 @@
 	contor1 db 0 ;verificarea primului sir
 	contor2 db 0;nr de aparitii a primului sir
 .code
-incrementare:inc contor1
+incrementare:inc contor1 ;incrementam pentru fiecare litere identice
 jmp inapoi
 verificare:
 	mov AL,len_sir0

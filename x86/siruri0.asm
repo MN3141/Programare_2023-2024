@@ -5,7 +5,7 @@
 .data
 	sir0 db 'Ana are mere$'
 	len_sir0 equ $-sir0
-	sir1 db 'Ana are bere$'
+	sir1 db 'Ana are pere$'
 .code
 different:
 	dec SI
@@ -24,6 +24,11 @@ start:
 	rep CMPSB 
 	jne different
 	mov SI,-1
-finish:	mov AH,4ch
+finish:	
+		mov DX,0
+		mov DX,SI
+		add DL,48
+		int 21h
+		mov AH,4ch
 		int 21h
 end start
