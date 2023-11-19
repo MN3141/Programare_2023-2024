@@ -25,6 +25,7 @@ start:
 	jne different
 	mov SI,-1
 finish:	
+		mov AH,2h
 		mov DX,0
 		mov DX,SI
 		add DL,48
