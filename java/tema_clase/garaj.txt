@@ -1,0 +1,6 @@
+5
+Dacia 1310 4 200 400
+VEB-Sachsenring-Automobilwerke-Zwickau Trabant 3.36 20 10
+VAZ Lada 3.8 180 50
+Zastava Zastava-Koral 3.485 185 500
+Citroen Olcit 4.02 100 100
