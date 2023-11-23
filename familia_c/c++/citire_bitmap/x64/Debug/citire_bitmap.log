@@ -1,0 +1,3 @@
+﻿  bitmap.cpp
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c++\citire_bitmap\bitmap.cpp(22,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  citire_bitmap.vcxproj -> C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c++\citire_bitmap\x64\Debug\citire_bitmap.exe

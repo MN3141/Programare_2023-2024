@@ -2,3 +2,6 @@ printf=printare formatata
 printf("formatare",valoare)
 ex:printf("%d",var) //%d afisare pe ecran ca nr intreg
 	printf("%f",var)//%f afisare ca nr in virgula mobila
+%d-zecimal
+%f-float
+%s-string
