@@ -6,7 +6,7 @@ public class Car extends Vehicle {
     private float price;
     public Car()
     {
-        this.manufacturer="Malaxa";
+        super();
         this.model="Panzerkampfwagen 38(t)";
         this.length=4.61f;
         this.maxSpeed=42f;
@@ -14,7 +14,7 @@ public class Car extends Vehicle {
     }
  public Car(String manufacturer,String model,float length,float maxSpeed, float price)
  {
-     this.manufacturer=manufacturer;
+     super(manufacturer);
      this.model=model;
      this.length=length;
      this.maxSpeed=maxSpeed;

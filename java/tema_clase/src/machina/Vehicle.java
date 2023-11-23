@@ -1,9 +1,14 @@
 package machina;
 public class Vehicle {
-    protected String manufacturer;
+    private String manufacturer;
     public Vehicle()
     {
         this.manufacturer="Malaxa";
     }
+    public Vehicle(String manufacturer)
+    {
+        this.manufacturer=manufacturer;
+    }
+
 
 }

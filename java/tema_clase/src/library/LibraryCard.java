@@ -4,12 +4,11 @@ public class LibraryCard extends Books{
 
     public LibraryCard()
     {
+        super();
         this.copies=1000000;
     }
     public  LibraryCard(String title,String author,String publisher,int copies) {
-        this.title = title;
-        this.author = author;
-        this.publisher = publisher;
+        super(title,author,publisher);
         this.copies = copies;
     }
     public int getCopies()
@@ -18,6 +17,7 @@ public class LibraryCard extends Books{
     }
     public String getTitle()
     {
-        return this.title;
+
+        return this.Title();
     }
 }
