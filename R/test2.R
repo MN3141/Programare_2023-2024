@@ -1,0 +1,7 @@
+test<-scan()
+print("CITIT:")
+print(test)
+print("MEDIE")
+print(mean(test))
+print("ABATERE PATRATICA")
+print(sd(test))
