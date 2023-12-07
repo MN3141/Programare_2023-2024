@@ -22,8 +22,8 @@ public class Main {
            {
 System.out.println(str);
            }
-           citire.close();
-           System.in.read();//echivalent cu getch() din C
+           //citire.close(); //merge si fara metoda .close()
+           //System.in.read();//echivalent cu getch() din C
        }
        catch (IOException e)
        {
