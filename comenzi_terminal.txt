@@ -4,6 +4,9 @@ git commit -m ' '
 git pull
 git remote add origin ' '
 git push -f ;pt a forta incarcarea codului
+git config --global user.email
+git config --global user.name
+git checkout *nume branch*
 ===============================
 code . -Lansare VS Code
 ===============================
