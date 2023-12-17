@@ -8,7 +8,12 @@ Git Bash:
 	git push -f ;pt a forta incarcarea codului
 	git config --global user.email
 	git config --global user.name
-	git checkout *nume branch*
+	git branch *afisare ramuri
+	git branch *nume ramura noua*
+	git checkout *nume branch* 
+	git checkout -b *nume ramura noua*
+	git branch --set-upstream-to=origin/<*nume ramura*>
+	git status ;status-ul fisierelor
 ==============================================
 VS Code:
 	code . -Lansare VS Code
