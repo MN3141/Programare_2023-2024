@@ -1,7 +1,12 @@
 rm()
-tabNum<-c(99,82,73)
-names(tabNum)<-c("IPRS","PRAVETS","ROBOTRON")
-print(tabNum)
-x<-array(c(1:10),30)
-print(x)
-y<-array(c(-1:4),10)#array nu extinde vectorul de dim mai mica pt a efectua operatii
+supplier1<-c("IPRS","Romania","Components")
+names(supplier1)<-c("Name","Country","Products")
+print(supplier1)
+print("-------------------------------------")
+print(names(supplier1))
+supplier2<-c("Pravets","Bulgaria","Computers")
+tab<-c(supplier1,supplier2)
+print(tab)#va trb sa folosim matrice
+#vezi fisierul matrici.R
+print(supplier1["Country"])#adresare tablou prin sir de caractere
+#acelasi lucru este posibil in C++ prin redefinirea operatorului []
