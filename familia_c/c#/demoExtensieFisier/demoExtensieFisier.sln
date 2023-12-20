@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoExtensieFisier", "demoExtensieFisier.csproj", "{A393AB46-347F-4396-A14F-F632CBFAADC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A393AB46-347F-4396-A14F-F632CBFAADC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A393AB46-347F-4396-A14F-F632CBFAADC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A393AB46-347F-4396-A14F-F632CBFAADC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A393AB46-347F-4396-A14F-F632CBFAADC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CB2FBFF-5FCB-4CA3-B620-1B4C36FEA05F}
+	EndGlobalSection
+EndGlobal

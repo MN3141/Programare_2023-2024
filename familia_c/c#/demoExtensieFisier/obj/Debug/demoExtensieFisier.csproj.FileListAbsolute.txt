@@ -1,0 +1,11 @@
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\bin\Debug\demoExtensieFisier.exe.config
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\bin\Debug\demoExtensieFisier.exe
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\bin\Debug\demoExtensieFisier.pdb
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.csproj.AssemblyReference.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.csproj.SuggestedBindingRedirects.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.fMain.resources
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.Properties.Resources.resources
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.csproj.GenerateResource.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.csproj.CoreCompileInputs.cache
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.exe
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c#\demoExtensieFisier\obj\Debug\demoExtensieFisier.pdb
