@@ -14,21 +14,27 @@ Git Bash:
 	git checkout -b *nume ramura noua*
 	git branch --set-upstream-to=origin/<*nume ramura*>
 	git status ;status-ul fisierelor
-==============================================
+	git reset --hard head~numar ;pt a reveni la o stare anterioare cu numar pasi inapoi
+	git reflog-vizualizare commit-uri indiferent de stergeri
+	git reset --hard commit_ID ;sare pana la acel commit
+========================================================
 VS Code:
 	code . -Lansare VS Code
 	g++ program.cpp
+	gcc program.c
 	./a.exe
-	g++ -g test.cpp //pt depanare
-==============================================
+	g++ -g test.cpp -pt depanare
+	gcc -S program.c -creare cod sursa in x86
+	g++ -S program.cpp 
+========================================================
 Java:
 	javac program.java
 	java program
-==============================================
+========================================================
 DOS:
 	type -afisare text
 	dir /w wide
 	dir /p prompt
 	dir /ad all directories
 	exit sau shutdown
-==============================================
+========================================================
