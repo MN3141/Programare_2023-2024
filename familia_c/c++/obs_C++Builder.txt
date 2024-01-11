@@ -1,2 +1,0 @@
-!!Indexarea sirurilor se face 1!!!!
-Accesare element dintr-un String: sir.operator[] (index)
