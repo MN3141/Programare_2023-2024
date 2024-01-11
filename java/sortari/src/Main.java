@@ -5,7 +5,7 @@ class Util{
             System.out.print(array[i]+" ");
         System.out.println();
     }
-    public static void insertSort(int array[])
+    public static void selectSort(int array[])
     {
         for(int i=0;i< array.length-1;i++)
         {
@@ -24,7 +24,7 @@ class Util{
     {
         boolean sorted=false;
         int n= array.length;
-        while(sorted==false)
+        while(!sorted)
         {
             sorted=true;
             for(int i=0;i<n-1;i++)
@@ -74,7 +74,7 @@ class Util{
         int i=first;
         int j=pivot+1;
         int tempArray[]=new int[array.length];
-        while(i<pivot && j<last)
+        while((i<=pivot) && (j<=last))
         {
             if(array[i]<array[j])
             {
@@ -121,10 +121,40 @@ class Util{
 }
 public class Main {
     public static void main(String[] args) {
-        int v[]={2,11,3,0,-2,11111,1};
-        int w[]=v;
-        Util.Print(w);
-        Util.mergeSort(w,0,6);
-        Util.Print(w);
+        int tab[]=new int[100000];
+        int v[]=new int[tab.length];
+        int w[]=new int[tab.length];
+        int u[]=new int[tab.length];
+        int x[]=new int[tab.length];
+        for(int i=0;i<tab.length;i++)
+        {
+            tab[i]=(int)(Math.random()*100);
+            v[i]=tab[i];
+            w[i]=tab[i];
+            u[i]=tab[i];
+            x[i]=tab[i];
+        }
+        //Util.Print(tab);
+        long t0=System.currentTimeMillis();
+        Util.selectSort(u);
+        long t1=System.currentTimeMillis();
+       // Util.Print(u);
+        System.out.print("Selection sort: ");
+        System.out.println(t1-t0+ " ms");
+        t0=t1;
+        Util.mergeSort(v,0,v.length-1);
+        t1=System.currentTimeMillis();
+        System.out.print("Merge sort: ");
+        System.out.println(t1-t0+ " ms");
+        t0=t1;
+        Util.bubbleSort(w);
+        t1=System.currentTimeMillis();
+        System.out.print("Bubble sort: ");
+        System.out.println(t1-t0+ " ms");
+        t0=t1;
+        Util.quickSort(x,0,x.length-1);
+        t1=System.currentTimeMillis();
+        System.out.print("Quick sort: ");
+        System.out.println(t1-t0+ " ms");
     }
 }

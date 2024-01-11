@@ -1,5 +1,37 @@
 package arbori;
 public class BinaryTree{
+    Node root;
+    public BinaryTree()
+    {
+        this.root=null;
+        insert(new Node(7));
+        insert(new Node(1));
+        insert(new Node(5));    }
+    public void insert(Node z)
+    {
+        Node y=null;
+        Node x=root;
+        while(x!=null)
+        {
+            y=x;
+            if(z.key<x.key)
+                x=x.leftChild;
+            else
+                x=x.rightChild;
+        }
+        z.parent=y;
+        if(y==null)
+            root=z;
+        else
+        if(z.key<y.key)
+            y.leftChild=z;
+        else
+            y.rightChild=z;
+    }
+    public Node getRoot()
+    {
+        return this.root;
+    }
     public void inOrder(Node x)
     {
         if(x!=null)
