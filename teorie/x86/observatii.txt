@@ -4,3 +4,6 @@
 -mov byte ptr [bx][si],2-scrie in locatia de memorie ds+bx+si valoarea 2 pe 1 octet
 -de multe ori(sau mereu) operanzii unui instructiuni nu pot fi amandoi locatii de memorie
 -in 8086 pot fi definite mai multe segmente de cod/stiva/cod/date
+-tab[n].a1 (a1 de tip octet) <=> continut[tab+n si primul octet gasit)
+	tab[n].a2 (a2 de tip word,al doilea membru al structurii) <=>continut[tab+n+1 si cuvantul gasit)
+-pe TASM,registrii de segment ES,CS,DS si SS au octetul cel mai semnificativ 48h
