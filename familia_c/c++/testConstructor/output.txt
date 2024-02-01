@@ -1,0 +1,32 @@
+Constructor implicit T:
+Constructor implicit T:
+VAR1:
+Suntem in corpul functiei 1:
+Constructor implicit T:
+Redefinire operator atribuire:
+Destructor T:
+VAR2:
+Suntem in corpul functiei 1:
+Constructor implicit T:
+VAR3:
+Constructor de copiere T:
+Constructor de copiere T:
+Suntem in corpul functiei 2:
+Constructor implicit T:
+Redefinire operator atribuire:
+Destructor T:
+Destructor T:
+================================
+Teste pointer:
+Constructor implicit T:
+Afisare de la clasa T:**
+Destructor T:
+Constructor implicit T:
+Constructor implicit T:
+Constructor implicit TDeriv0:
+Afisare de la clasa TDeriv0:##
+Destructor T:
+Destructor T:
+Destructor T:
+Destructor T:
+Destructor T:
