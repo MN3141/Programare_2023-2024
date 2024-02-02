@@ -1,0 +1,12 @@
+Atmel328p:
+	32 registrii de uz general pe 8 biti
+	instructiuni pe 16 biti
+	3 porturi:D(D0->D7)
+			  B(D8->D13)
+			  C(A0->A5)
+	DDRB=Data Direction Register port B(setare mod pin;input/output)
+	PORTB(setare stare;HIGH/LOW)
+	PINB(citire pini)
+	x  x  x  x  x  x  x  x
+	D7 D6 D5 D4 D3 D2 D1 D0
+	SREG=Status Register,registru de fanioane(flag-uri)
