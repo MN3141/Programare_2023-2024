@@ -6,8 +6,13 @@
 -in 8086 pot fi definite mai multe segmente de cod/stiva/cod/date
 -tab[n].a1 (a1 de tip octet) <=> continut[tab+n si primul octet gasit)
 	tab[n].a2 (a2 de tip word,al doilea membru al structurii) <=>continut[tab+n+1 si cuvantul gasit)
+	acest mecanism este folosit cand se defineste structura cu care se intra intr-o procedura/functie
+	stiind ca incarcarea va avea loc in ordine inversa si ca pozitia membriilor ghideaza unde
+	procesorul in ce locatie sa caute datele
 -pe TASM,registrii de segment ES,CS,DS si SS au octetul cel mai semnificativ 48h
 -pt adresare exista registrii de baza(BX,BP) si de indexare(SI,DI)
 	nu sunt permise combinatiile BP+BX,BX+BP,SI+DI,DI+SI pt adresare
 -BP nu indica spre varful stivei
 -multiplii 10h:10h,20h,30h,40h,50h ...270h etc.
+-magistrala fiind de 16 biti,nu pot fi transmise simultan doua adrese
+	motiv pentru care secvente precum mov [100],[BX] nu functioneaza!

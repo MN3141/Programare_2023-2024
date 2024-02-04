@@ -38,3 +38,6 @@ DOS:
 	dir /ad all directories
 	exit sau shutdown
 ========================================================
+CMD:
+	start *fisier.txt* ;deschide fisierul text
+	start notepad++ *fisier.txt*;deschide fisierul text cu notepad++
