@@ -1,0 +1,1 @@
+Pentru a edita comenzi BASH,se creaza alias in C:\Git\etc\profile.d\aliases.sh

@@ -2,7 +2,7 @@ bool state=0;
 void setup()
 {
   	Serial.begin(9600);
-	DDRD=DDRD& ~(1<<PIN7);
+	DDRD=DDRD~(1<<PIN7);
   	PORTD=PORTD|1;
 }
 
