@@ -1,0 +1,7 @@
+Pentru a edita comenzi BASH,se creaza alias in C:\Git\etc\profile.d\aliases.sh
+=======================================================================================================
+alias go='cd C:/Arhiva_ULBS/Proiecte/Anul_II;start programare_2023-2024;cd programare_2023-2024'
+alias ascbmp='cd C:/Arhiva_ULBS/Proiecte/Anul_II;start ASC-BMP;cd ASC-BMP'
+alias lucru='cd C:/Users/mihai/Desktop/Lucru;dir'
+alias music='start C:/Users/mihai/Desktop/Muzica'
+alias nav='cd C:/"Program Files"/"Mozilla Firefox";start firefox.exe;cd C:/Users/mihai/Desktop/Lucru;'

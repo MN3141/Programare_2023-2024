@@ -17,7 +17,10 @@ Git Bash:
 	git reset --hard head~numar ;pt a reveni la o stare anterioare cu numar pasi inapoi
 	git reflog-vizualizare commit-uri indiferent de stergeri
 	git reset --hard commit_ID ;sare pana la acel commit
-========================================================
+=============================================================================================
+BASH:
+	nano ;editor de text; Ctrl+x pt a iesi din el
+=============================================================================================
 VS Code:
 	code . -Lansare VS Code
 	g++ program.cpp
@@ -26,18 +29,18 @@ VS Code:
 	g++ -g test.cpp -pt depanare
 	gcc -S program.c -creare cod sursa in x86
 	g++ -S program.cpp 
-========================================================
+=============================================================================================
 Java:
 	javac program.java
 	java program
-========================================================
+=============================================================================================
 DOS:
 	type -afisare text
 	dir /w wide
 	dir /p prompt
 	dir /ad all directories
 	exit sau shutdown
-========================================================
+=============================================================================================
 CMD:
 	start *fisier.txt* ;deschide fisierul text
 	start notepad++ *fisier.txt*;deschide fisierul text cu notepad++
