@@ -4,5 +4,9 @@ alias go='cd C:/Arhiva_ULBS/Proiecte/Anul_II;start programare_2023-2024;cd progr
 alias ascbmp='cd C:/Arhiva_ULBS/Proiecte/Anul_II;start ASC-BMP;cd ASC-BMP'
 alias lucru='cd C:/Users/mihai/Desktop/Lucru;dir'
 alias music='start C:/Users/mihai/Desktop/Muzica'
+<<<<<<< HEAD
 alias nav='cd C:/"Program Files"/"Mozilla Firefox";start firefox.exe;cd C:/Users/mihai/Desktop/Lucru;'
 alias avr='cd C:/Arhiva_ULBS/Proiecte/Anul_II;start helloAVR;cd helloAVR'
+=======
+alias nav='cd C:/"Program Files"/"Mozilla Firefox";start firefox.exe;cd C:/Users/mihai/Desktop/Lucru'
+>>>>>>> 2dc94a2bf596e7565ec0453bab880c0810f53434

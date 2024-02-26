@@ -1,0 +1,3 @@
+﻿  Patrat.c
+D:\iprs\lab1\Patrat.c(96,61): warning C4133: 'function': incompatible types - from 'char [40]' to 'LPCWSTR'
+  lab1Test.vcxproj -> D:\iprs\lab1\lab1Test\Debug\lab1Test.exe
