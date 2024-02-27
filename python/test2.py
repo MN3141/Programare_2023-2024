@@ -1,4 +1,4 @@
 x=10
 while x>0:
- print(x)
+ print("X:",x)
  x-=1

@@ -46,5 +46,6 @@ CMD:
 	start notepad++ *fisier.txt*;deschide fisierul text cu notepad++
 =============================================================================================
 Python:
-	py //interpretor python
-	venv //virtual enviroment
+	py #interpretor python
+	py *fisier.py* #rulare fisier.py
+	venv #virtual enviroment
