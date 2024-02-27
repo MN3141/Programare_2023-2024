@@ -1,3 +1,7 @@
+Adaugare java,java in PATH:
+	Control Panel>System>Advanced System Settings>Enviroment Variables
+	System Variables>Adaugare cale java SDK cu un nume ales(ex:JTerminal)
+	System Variables>Path>Adaugare %JTerminal%\bin
 ==============================================
 Git Bash:
 	git init
@@ -20,6 +24,8 @@ Git Bash:
 =============================================================================================
 BASH:
 	nano ;editor de text; Ctrl+x pt a iesi din el
+	mv *fisier* *director*
+	mv *nume1Fisier* *nume2Fisier*;redenumire fisiere/directoare
 =============================================================================================
 VS Code:
 	code . -Lansare VS Code
