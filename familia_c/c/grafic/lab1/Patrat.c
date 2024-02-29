@@ -93,7 +93,7 @@ int main(int argc, char** argv)
 {
     auxInitDisplayMode (AUX_SINGLE | AUX_RGB);
     auxInitPosition (0, 0, 300, 200);
-    auxInitWindow ("Un patrat care se translateaza pe axa x");
+    auxInitWindow (L"Un patrat care se translateaza pe axa x");
     myinit ();
 	auxKeyFunc (AUX_LEFT, MutaStanga);
 	auxKeyFunc (AUX_RIGHT, MutaDreapta);

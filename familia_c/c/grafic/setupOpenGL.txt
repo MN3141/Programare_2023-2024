@@ -1,0 +1,19 @@
+I:
+	1. La adresa C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\gl
+Se copieza fisierele *.H (GLAUX.H, GLU.H si eventual GLUT.H) pe langa GL.H care ar trebui sa existe
+deja.
+	2. La adresa C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x86
+Se copieza fisierele *.LIB (GLAUX.LIB, GLU32.LIB si eventual GLUT32.LIB) pe langa opengl32.lib care
+ar trebui sa existe deja.
+	3. La adresa C:\Windows\System32
+Se copieza fisierele *.DLL (GLU32.DLL si eventual GLUT32.DLL) pe langa opengl32.dll care ar trebui sa
+existe deja.
+II:
+Visual Studio>Project>Properties>Linker>Input>Aditional Dependencies:
+	opengl32.lib
+	glu32.lib
+	glaux.lib
+	legacy_stdio_definitions.lib
+OBS:Project>PropertiesPlatform:Win32 musai!
+	Visual Studio>x86
+	
