@@ -1,3 +1,2 @@
 ﻿  Patrat.c
-C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c\grafic\lab1\Patrat.c(96,61): warning C4133: 'function': incompatible types - from 'char [40]' to 'LPCWSTR'
   test0OpenGL.vcxproj -> C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c\grafic\lab1\test0OpenGL\Debug\test0OpenGL.exe

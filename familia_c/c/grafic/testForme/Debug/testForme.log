@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c\grafic\testForme\main.c(13,25): warning C4133: 'function': incompatible types - from 'char [5]' to 'LPCWSTR'
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c\grafic\testForme\main.c(25,38): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c\grafic\testForme\main.c(67,40): warning C4305: '+=': truncation from 'double' to 'float'
+  testForme.vcxproj -> C:\Arhiva_ULBS\Proiecte\Anul_II\programare_2023-2024\familia_c\c\grafic\testForme\Debug\testForme.exe

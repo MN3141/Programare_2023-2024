@@ -92,6 +92,7 @@ void CALLBACK myReshape(GLsizei w, GLsizei h)
 int main(int argc, char** argv)
 {
     auxInitDisplayMode (AUX_SINGLE | AUX_RGB);
+   auxInitPosition(100, 100,0,0);
     auxInitPosition (0, 0, 300, 200);
     auxInitWindow (L"Un patrat care se translateaza pe axa x");
     myinit ();
