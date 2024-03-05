@@ -21,6 +21,7 @@ Git Bash:
 	git reset --hard head~numar ;pt a reveni la o stare anterioare cu numar pasi inapoi
 	git reflog-vizualizare commit-uri indiferent de stergeri
 	git reset --hard commit_ID ;sare pana la acel commit
+	git log;pt a vizualiza commit-urile
 =============================================================================================
 BASH:
 	nano ;editor de text; Ctrl+x pt a iesi din el
