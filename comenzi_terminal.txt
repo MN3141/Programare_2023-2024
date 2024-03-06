@@ -3,7 +3,7 @@ Adaugare java,java in PATH:
 	Control Panel>System>Advanced System Settings>Enviroment Variables
 	System Variables>Adaugare cale java SDK cu un nume ales(ex:JTerminal)
 	System Variables>Path>Adaugare %JTerminal%\bin
-==============================================
+=====================================================================================================================================================================================
 Git Bash:
 	git init
 	git add 
@@ -23,6 +23,8 @@ Git Bash:
 	git reflog-vizualizare commit-uri indiferent de stergeri
 	git reset --hard commit_ID ;sare pana la acel commit
 	git log;pt a vizualiza commit-urile
+	gir rm *fisier*;stergere din .git si din memorie
+	git rm *fisier* --cached;stergere din .git,dar NU si din memorie
 =============================================================================================
 BASH:
 	nano ;editor de text; Ctrl+x pt a iesi din el
