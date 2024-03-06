@@ -1,3 +1,4 @@
+OBS:In shell este posibila completarea unor cuvinte cheie(mkdir,nano) sau a unor nume de fisiere/directoare folosind tasta "tab"(ca in unele medii de programare)
 Adaugare java,java in PATH:
 	Control Panel>System>Advanced System Settings>Enviroment Variables
 	System Variables>Adaugare cale java SDK cu un nume ales(ex:JTerminal)

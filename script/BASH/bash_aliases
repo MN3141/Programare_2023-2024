@@ -10,3 +10,4 @@ alias avr='cd C:/Arhiva_ULBS/Proiecte/Anul_II;start helloAVR;cd helloAVR'
 =======
 alias nav='cd C:/"Program Files"/"Mozilla Firefox";start firefox.exe;cd C:/Users/mihai/Desktop/Lucru'
 >>>>>>> 2dc94a2bf596e7565ec0453bab880c0810f53434
+alias tree='tree.com'

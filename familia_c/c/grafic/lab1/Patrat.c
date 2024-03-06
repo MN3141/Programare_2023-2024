@@ -3,11 +3,10 @@ Programul afiseaza un patrat pe care il translateaza
 pe axa x la apasarea sagetilor stanga, dreapta
 */
 #include "glos.h"
-
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glaux.h>
-
+#include<stdio.h>
 void myinit(void);
 void CALLBACK display(void);
 void CALLBACK myReshape(GLsizei w, GLsizei h);
@@ -25,20 +24,24 @@ void myinit (void) {
 
 void CALLBACK MutaStanga(void)
 {
-	x=x-10;
+    x = x - 10;
+    printf("\n %s %f", "X:", x);
 }
 
 void CALLBACK MutaDreapta(void)
 {
 	x=x+10;
+    printf("\n %s %f", "X:", x);
 }
 void CALLBACK SUS(void)
 {
     y = y + 10;
+    printf("\n %s %f", "Y:", y);
 }
 void CALLBACK JOS(void)
 {
     y = y - 10;
+    printf("\n %s %f", "Y:", y);
 }
 void CALLBACK display (void)
 {

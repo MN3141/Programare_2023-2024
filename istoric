@@ -1,0 +1,501 @@
+commit 36fb42ddb7a42ceedb8243e9084eeda3e33f5620
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Tue Mar 5 23:41:14 2024 +0200
+
+    Vizualizare istoric git
+
+commit 9ef04da23dde031dd80a7d132016f34cefd38298
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Tue Mar 5 09:26:06 2024 +0200
+
+    Testare OpengGL
+
+commit f0912cde489e3f3e7bf90388e35c995bfa45b3ce
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Tue Mar 5 09:24:44 2024 +0200
+
+    Lab2 Python
+
+commit 00afdf13ab211ebcaca86576814a08875084e380
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Thu Feb 29 22:46:51 2024 +0200
+
+    Test OpenGL+HTML
+
+commit 37a40894b5ce0e40cae7e2b70cb81c688a47c581
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Wed Feb 28 01:05:27 2024 +0200
+
+    Testare java in terminal
+
+commit aba9be91b212c7ee55a363d2cf310b5e88a37aa9
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Tue Feb 27 09:48:43 2024 +0200
+
+    Test nou python
+
+commit 2cb935a54375fc080d6a6cc312d8af420677f142
+Merge: 4a8a0b5 2dc94a2
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Mon Feb 26 23:00:14 2024 +0200
+
+    Inceput semestru II
+
+commit 4a8a0b59a9e62df226c238fb4dc9ef083f0a3b1e
+Author: Neag Mihai <117996028+MN3141@users.noreply.github.com>
+Date:   Mon Feb 26 22:55:15 2024 +0200
+
+    Inceput semestru II
+
+commit 2dc94a2bf596e7565ec0453bab880c0810f53434
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Thu Feb 15 00:54:45 2024 +0200
+
+    Codul principal de embedded va fi publicat in Hello AVR
+
+commit 0d15b6f04184e5511d61719f43861d9429de32a7
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Feb 13 23:07:12 2024 +0200
+
+    Testare ATmelStudio
+
+commit 69db97941026612d6f7659f9be225db9a91aeb19
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Feb 7 22:57:24 2024 +0200
+
+    Creare fisier nou *.bat
+
+commit 70a2854eb41e973e54cfecc642046754c64b6664
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Feb 5 11:12:46 2024 +0200
+
+    Redenumire fisier
+
+commit 77b79535ce77b7e23e0532c92b0dfe7e5fa0e2a8
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Feb 5 00:22:51 2024 +0200
+
+    Exersare x86 pentru examen
+
+commit 4c76a87b5ef1df4cd8c440415099a48405561d30
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Fri Feb 2 15:47:57 2024 +0200
+
+    Testare embedded C
+
+commit 4c95ab5290f20be2dc44270b437d13fab7c9bc55
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Feb 1 21:01:00 2024 +0200
+
+    Testare facilitati pentru examen
+
+commit 02e53ba647b24e635decc1210ab801f2307e8cb1
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Feb 1 21:00:39 2024 +0200
+
+    Testare facilitati pentru examen
+
+commit 5f66b50a7d764d36f2e40248232601cab4c235cd
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Jan 29 00:55:28 2024 +0200
+
+    Comenzi terminal+diverse
+
+commit c754ab262c1ff36dcbc02d1151f1d66ab13aef34
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Jan 28 20:22:35 2024 +0200
+
+    Adaugare manuale suplimentare
+
+commit 579cb7e360f9af60765131ee9226cfe006cfbe96
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sat Jan 27 16:25:44 2024 +0200
+
+    Segmentare memorie 8086
+
+commit 506dd4d09b51fcffdde24b11d5136e6c79e748fb
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Jan 25 12:45:38 2024 +0200
+
+    Exersare electro
+
+commit 22389abcbc2c10db5c0eabc0c11f824e985dc465
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Jan 24 22:52:33 2024 +0200
+
+    Experimentare
+
+commit d346a359eb207b62b978fe6192c788591c3d9218
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Jan 18 01:56:46 2024 +0200
+
+    Verificare segmentare memorie
+
+commit a4b931eb25dd8a822dcc6eba8b0d1fa8afb80f2f
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Jan 14 02:44:20 2024 +0200
+
+    Tema Java
+
+commit 0c2c678ea96d84191f3283a9bfb300e8f9c91f5f
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Jan 11 17:40:55 2024 +0200
+
+    Tema Java
+
+commit 8a5e0600cab9a8d2ac6187cdf3ea1d2b88a4b5ab
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Jan 11 09:40:35 2024 +0200
+
+    Completare laboratoare
+
+commit 3d5a910dbfb1aa86c3f8f55d6c66aa922668ad0c
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Jan 7 23:01:17 2024 +0200
+
+    Vacanta
+
+commit a7f41bd5e0e8b421a8a7189c01a9addd2e5d87ca
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Dec 20 21:20:49 2023 +0200
+
+    Lab. limbaj R
+
+commit 6407993a34d0c9138a053a5f014fdd339a389969
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Dec 20 02:41:50 2023 +0200
+
+    pro Genossin
+
+commit 2d4429ffd48d0e70fa23e7694e99a2e07ce536b6
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Dec 19 15:38:03 2023 +0200
+
+    Exersare R
+
+commit 6ecd180fceede94b5aea50b77316178bca100cbe
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Dec 19 00:02:42 2023 +0200
+
+    De completat testele
+
+commit 247a04706917882b10694c3f24d4f27b1dd451d2
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Dec 18 01:21:21 2023 +0200
+
+    nisam uspeo
+
+commit d3bd37143184b306471434d0e7db3b189dbfdf8a
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sun Dec 17 03:30:20 2023 +0200
+
+    Arhivare informatii
+
+commit 006ced6b32d093e49053879a986bf9281f7be4db
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sat Dec 16 00:17:25 2023 +0200
+
+    Exersare MatLab
+
+commit ad1c412ad22cfcb55281077f01e7266ae8c9ec2c
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Dec 14 00:59:23 2023 +0200
+
+    Exersare scriptare+comenzi terminal
+
+commit bbb1a52c579a7f9bc8d3e804f2c3b5454924bdbe
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Dec 10 16:47:31 2023 +0200
+
+    Nevoie de exersare MatLab
+
+commit 41af8aded78a8f286163cabbc9867154f4c3a632
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Dec 7 15:27:03 2023 +0200
+
+    Exersare Java
+
+commit 16252c83066ad07e811f18295f43b9f3f96f6810
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Dec 5 22:29:52 2023 +0200
+
+    Testare limbaj R;lab x86
+
+commit ddf3245ec71bedf83e53446e9d2692b6a532a8f4
+Merge: 2b38d53 935c56f
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Dec 5 14:35:02 2023 +0200
+
+    Merge branch 'main' of https://github.com/MN3141/Programare_2023-2024
+
+commit 2b38d53b158b1822d2e6f7f1b3a67883800df257
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Dec 5 14:33:45 2023 +0200
+
+    Exersare C++;preluare cod x86
+
+commit 935c56fc904637fe3efce07bea530b1aa074d97a
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Fri Dec 1 22:14:42 2023 +0200
+
+    Incercare rezolvare tema lab x86
+
+commit 0c67e9bca52a87f40a57f260f13adb7bbfdbca0f
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Nov 29 18:53:41 2023 +0200
+
+    De adaugat aliasul go acasa
+
+commit c3e274b62b56641358d76783861e1eddf4af490d
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Nov 28 23:47:25 2023 +0200
+
+    Exersare C++/x86
+
+commit 3ea571710fe576e6c0d87c117762701cbee51cdd
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Nov 28 16:34:34 2023 +0200
+
+    Adaugare documentatie Java
+
+commit b0946b8eec6c225ba3e10d2c94eb098a1326a801
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Fri Nov 24 00:29:55 2023 +0200
+
+    Testare prelucrare imagine *.bmp de 1 pixel
+
+commit ccf27221a7eab7c0890d56dca717a266c6dd8797
+Merge: e6397a5 2207283
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Nov 23 20:51:12 2023 +0200
+
+    Revizuire tema Java
+
+commit e6397a5385ca7c38f4da0240cd716122301979e4
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Nov 23 20:48:39 2023 +0200
+
+    Revizuire tema Java
+
+commit 2207283d72b7375de9a87f01474051317e54d043
+Author: MN3141 <117996028+MN3141@users.noreply.github.com>
+Date:   Thu Nov 23 20:15:25 2023 +0200
+
+    Update biblioteca.txt
+
+commit 0c2851f7724f9880b2f8910c6ab3a9bb9c59faee
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Nov 23 13:24:03 2023 +0200
+
+    Tema lab Java
+
+commit e93d20bd5f2802225fe0a5a1c897f5fafbd19ef3
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Nov 20 13:49:14 2023 +0200
+
+    Testare membrii/metode statice
+
+commit 9889ba00ed82fe2e88d25d1eb842d528abd1ad5d
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Nov 19 23:52:45 2023 +0200
+
+    Restructurare cod C/C++/C# + implementare indicatori din statistica
+
+commit 2783c0468a2ac5a17e93828aebd3362b1a54f299
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sun Nov 19 13:31:36 2023 +0200
+
+    Revizuire tema laborator x86
+
+commit 71dcadcfb1ce55eb50adab67c929a8133e84f60f
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sun Nov 19 13:25:41 2023 +0200
+
+    Revizuire tema laborator x86
+
+commit 4ce33c4424c3e3747188edf77263cf1a5dd32357
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sun Nov 19 00:45:43 2023 +0200
+
+    Tema laborator x86
+
+commit 3bc4f27f16f03c41ab9f9d730601fa2d53ee78fe
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Nov 16 03:57:59 2023 +0200
+
+    Corectare comenzi_terminal.txt
+
+commit d69c37b1e87454ffd1c2df6b01e9b15c677349ec
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Nov 16 03:53:26 2023 +0200
+
+    Ar trb sa dorm
+
+commit b5ea630860feaa3b9f6f3ab115d4c7aa92f34773
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Nov 14 13:13:50 2023 +0200
+
+    Cod laborator
+
+commit 25d0ee72bdd4989d849b4561ca7d75baf43dd6db
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Nov 14 01:34:22 2023 +0200
+
+    14.11.2023
+
+commit e92b7bbff8c773a265069ca119e4d360fd0cc1f1
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Nov 13 00:28:14 2023 +0200
+
+    Preluare cod ASCII din text si stocare intr-un fisier
+
+commit 3535eaf6e22f3e8b321ebcefcc6035e579b760e8
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Nov 12 22:25:39 2023 +0200
+
+    Exersare JTree
+
+commit a005e5f9acb9278ef82f1e334060c7bbb587e1c4
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Nov 12 19:34:28 2023 +0200
+
+    Tema limbaj asamblare
+
+commit 680256b9e8d234a083a7e8f2639364f9e2f12fab
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Nov 9 13:28:06 2023 +0200
+
+    Tema Java lab
+
+commit c75f9c5f0017f959c9a3a33a6669ccf46385ac0b
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Nov 8 20:03:34 2023 +0200
+
+    Exersare x86
+
+commit d36b2959dcebc134759e7756fc1d124cfe2b54f6
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Nov 7 16:40:34 2023 +0200
+
+    Tema Java interfata grafica
+
+commit 7f264e693ed114a81e4012b3ecb31ed06fce5165
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sun Nov 5 12:10:46 2023 +0200
+
+    Exersare Java
+
+commit fdbb5dd6d64e789c6b1672c36bcf56a088cbe01f
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Nov 2 00:14:07 2023 +0200
+
+    Exersare clase C++ si flux intrare Java
+
+commit 20dc76af30eff4fb82a9043537771a5b56027247
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Sun Oct 29 22:34:40 2023 +0200
+
+    Exersare x86
+
+commit fbc43abf20ab02c85eb345860625e667bb223140
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Fri Oct 27 00:10:47 2023 +0300
+
+    Convertor in BCD
+
+commit 51329843f31aee40d82282f16b0d8580fb205efd
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Tue Oct 24 00:03:24 2023 +0300
+
+    Test biblioteca grafica Turbo C++
+
+commit bb00789019235ffc5f7c5b35382892f363e02857
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Oct 23 13:46:05 2023 +0300
+
+    Adaugare tema Java
+
+commit f24834c11bbecf8c0aa8ddccd32762521e870c57
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Oct 18 22:11:51 2023 +0300
+
+    Adaugare cod C#,test Windows form
+
+commit 3305a04d87af93b2a840fb66e2ec88bc303c0606
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Oct 16 23:02:22 2023 +0300
+
+    Adaugare cod indicatori din statistica
+
+commit f434706083940cf4c7496e60b07c5644a5da2aa0
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Fri Oct 13 00:05:04 2023 +0300
+
+    Adaugare cod nr complex
+
+commit 8a356bda511b91e1b3dce35526c0fd45b792d34e
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Thu Oct 12 23:27:54 2023 +0300
+
+    Adaugare cod Java
+
+commit 8d11874ca0a7fa7886204de23b4a95d7f05bddc1
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Wed Oct 11 22:30:53 2023 +0300
+
+    Adaugare cod pentru x86
+
+commit 9471aa72037a1dd7192dcb18f3c992a7bc3c46a7
+Author: NEAG MIHAI <mihaineag6@gmail.com>
+Date:   Mon Oct 9 00:30:53 2023 +0300
+
+    Adaugare doua noi programe in LC3
+
+commit 1dc858a3665efd86a40873bac02e65be80f80839
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sun Oct 8 12:47:19 2023 +0300
+
+    Adaugare documentatie suplimentara pentru LC3
+
+commit 9430d95fa28a96a9e64ace3b7ff4fd036e33a61e
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sat Oct 7 17:03:11 2023 +0300
+
+    Schelet
+
+commit 946effc30bf1d711a0ecbca50e1e94c7390bb397
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sat Oct 7 17:00:55 2023 +0300
+
+    Schelet
+
+commit 09d6c516319dc0693e02db37dd2ade0263f7bf60
+Merge: c910725 27d1ffa
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sat Oct 7 16:59:36 2023 +0300
+
+    Merge branch 'main' of https://github.com/MN3141/Programare_2023-2024
+
+commit c910725e27f8e1f931bc32ee3809ec2381e979e5
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sat Oct 7 16:57:49 2023 +0300
+
+    Creare schelet
+
+commit 27d1ffadf3617baa44fd528cd88674fc70dee315
+Author: MN3141 <117996028+MN3141@users.noreply.github.com>
+Date:   Sat Oct 7 16:39:34 2023 +0300
+
+    Delete teorie directory
+
+commit 4ef119930403ec331f38bf62b6dc29d2ad2c3649
+Author: MN3141 <117996028+MN3141@users.noreply.github.com>
+Date:   Sat Oct 7 16:39:23 2023 +0300
+
+    Delete lc3_arhiva directory
+
+commit ee6922f5fb10a404f5df0efedd349e7f68246da8
+Author: MIHAI NEAG <mihaineag6@gmail.com>
+Date:   Sat Oct 7 16:33:58 2023 +0300
+
+    Creare structura-schelet
