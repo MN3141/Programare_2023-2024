@@ -5,3 +5,5 @@ ex:printf("%d",var) //%d afisare pe ecran ca nr intreg
 %d-zecimal
 %f-float
 %s-string
+%x-hexa cu litere mici
+%X-gexa cu litere mari
