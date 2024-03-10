@@ -46,7 +46,7 @@ void CALLBACK reshape(GLsizei w, GLsizei h)//redimensionare fereastra
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     if (w <= h)
-        glOrtho(-160.0, 160.0, 160.0 * (GLfloat)h / (GLfloat)w,
+        glOrtho(-160.0, 160.0, 160.0 * (GLfloat)h / (GLfloat)w,//pentru proiectie oblica
             -160.0 * (GLfloat)h / (GLfloat)w, -10.0, 10.0);
     else
         glOrtho(-160.0 * (GLfloat)w / (GLfloat)h,
