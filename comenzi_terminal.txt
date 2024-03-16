@@ -25,6 +25,8 @@ Git Bash:
 	git log;pt a vizualiza commit-urile
 	gir rm *fisier*;stergere din .git si din memorie
 	git rm *fisier* --cached;stergere din .git,dar NU si din memorie
+	q ;iesire din lista(pager) precum cea rezultata din log
+	curl;vezi comenzile din CMD
 =============================================================================================
 BASH:
 	nano ;editor de text; Ctrl+x pt a iesi din el
@@ -54,8 +56,17 @@ DOS:
 CMD:
 	start *fisier.txt* ;deschide fisierul text
 	start notepad++ *fisier.txt*;deschide fisierul text cu notepad++
+	curl *adresa web*; primire pagina html a adresei resprective
+					 ;curl este valabil si in BASH
+	curl -o *fisierOut* *adresa web*;scriere cod html in "fisierOut"
+					 ;alternativ in BASH:curl *adresa web* >> *fisierOut*
+	curl -o *fisierDescarcat* *adresa web descarcare*;descarca fisiere diferite de cele HTML
+	curl -O *adresa web descarcare*;descarca fisierul cu numele sau original
 =============================================================================================
 Python:
 	py #interpretor python
 	py *fisier.py* #rulare fisier.py
 	venv #virtual enviroment
+	dir(obiect) #afisare metode si membrii sai
+	help()#afisare documentatie
+	help(obiect)#afisare documentatie obiect
