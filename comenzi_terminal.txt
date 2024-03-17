@@ -35,6 +35,7 @@ BASH:
 =============================================================================================
 VS Code:
 	code . -Lansare VS Code
+	code *numeFisier*
 	g++ program.cpp
 	gcc program.c
 	./a.exe
