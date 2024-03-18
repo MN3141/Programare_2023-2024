@@ -4,7 +4,7 @@
 const float pi = 3.14159;
 static GLfloat x = 0;
 static GLfloat y = 0;
-float length = 900;
+float length = 300;
 GLfloat angulus = 0;
 GLUquadric* obj = NULL;
 GLUquadric* obj2 = NULL;
