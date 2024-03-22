@@ -63,6 +63,8 @@ CMD:
 					 ;alternativ in BASH:curl *adresa web* >> *fisierOut*
 	curl -o *fisierDescarcat* *adresa web descarcare*;descarca fisiere diferite de cele HTML
 	curl -O *adresa web descarcare*;descarca fisierul cu numele sau original
+	winget install --id Cloudflare.cloudflared;pt server
+	cloudflared access ssh-config -hostname ssh.rudylinuxserver.com;accesare server Sado
 =============================================================================================
 Python:
 	py #interpretor python

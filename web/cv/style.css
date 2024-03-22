@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(145, 141, 141);
+}
+.navMenu ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+.navMenu li{
+    display: inline;
+}
+.navMenu a:hover{
+    background-color: blueviolet;
+}
+#ego{
+    height: auto; 
+    max-width: 15%;
+    border-style:solid;
+    float: right;
+}
