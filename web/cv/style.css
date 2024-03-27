@@ -1,20 +1,56 @@
 body{
-    background-color: rgb(145, 141, 141);
+    background-color: white;
+    color:black;
+    font-size:100%;
 }
-.navMenu ul{
+.body-dark-mode{
+    background-color: black;
+    color:white;
+}
+#navMenu ul{
     list-style-type: none;
     padding: 0%;
     margin: 0%;
+   background-color: rgb(136, 133, 133);
 }
-.navMenu li{
+#navMenu li{
     display: inline;
+   
 }
-.navMenu a:hover{
-    background-color: blueviolet;
+#navMenu a:hover{
+    background-color: rgb(10, 184, 253);
+    animation-name: color-change;
+    animation-duration: 1s;
+}
+#navMenu a:link{
+    color: rgb(10, 184, 253);
+}
+@keyframes color-change {
+    50%{background-color: rgb(1, 41, 56);}
+    100%{background-color: rgb(1, 222, 246);}
 }
 #ego{
     height: auto; 
     max-width: 15%;
     border-style:solid;
     float: right;
+    margin-top:2%;
+    margin-right:2%;
+    /*OBS:padding este folosit in cadrul elementelor/continutului;
+          margin este folosit intre elemente*/    
 }
+/*pentru projects.html*/
+/*=====================================================================*/
+.project-info{
+    margin-bottom:20%;
+}
+.project-info img{
+    float: right;
+    max-height: 20%; 
+    max-width: 20%;
+    border-style:solid;
+}
+.project-info a:hover{
+    color: rgb(31, 208, 239);
+}
+/*=====================================================================*/

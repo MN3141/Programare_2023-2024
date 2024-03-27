@@ -8,25 +8,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navMenu">
+<nav id="navMenu">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Assets/projects.html">Projects</a></li>
         <li><a href="Assets/contact.html">Contact</a></li>
+        <li><a href=" " onclick="toggleDarkMode()">Toggle Dark Mode </a> </li>
+        <li><a href=" " onclick="growFontSize()" >Grow</a> </li>
+        <li><a href=" " onclick="lowFontSize()" >Lower</a> </li>
     </ul>
 </nav>
 <section>
-<img src="Assets/pic.png" alt="profile picture" id="ego"/>
+<img src="Assets/pic.png" alt="profile picture" id="ego">
 </section>
 <article>
     <h2>Studies:</h2>
+    <ul>
+        <li>
+            <h4>26/09/2022 – PRESENT </h4>
+            <p>Universitatea Lucian Blaga din Sibiu,Computer Science</p>
+        </li>
+        <li>
+            <h4>10/07/2018 – 10/06/2022 </h4>
+            <p>Liceul Teoretic "Titu Maiorescu" din Aiud,Mathematics-Informatics</p>
+        </li>
+    </ul>
 </article>
 <article>
     <i class="fa-solid fa-microchip"></i>
     <h2>Skills:</h2>
+    <ul>
+        <li>C/C++,Java,x86 programming</li>
+        <li>Arduino platform</li>
+        <li>Electronic circuit design using LTSpice,EAGLE and MultiSim</li>
+    </ul>
 </article>
 <article>
     <h2>Hobbies:</h2>
+    <p>Whenever I have spare time,I enjoy reading books(especially History),tinkering with 
+        electronics,programming or talking long walks on the outskirts.
+    </p>
 </article>
 </body>
 </html>
