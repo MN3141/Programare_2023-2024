@@ -8,10 +8,11 @@ function toggleDarkMode()
     toggle.classList.toggle("body-dark-mode");
     console.log("Iesire toggle");
 }
-function growFontSize()
+function growFontSize(event)
 {
+  event.preventDefault()
   console.log("Intrare functie growFontSize()");
-  document.body.style.fontSize="150%";
+  document.body.style.fontSize="25px";
 }
 function lowFontSize()
 {
