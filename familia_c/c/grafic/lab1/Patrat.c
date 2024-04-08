@@ -84,8 +84,8 @@ void CALLBACK myReshape(GLsizei w, GLsizei h)
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     if (w <= h)		
-    glOrtho (-160.0, 160.0, 160.0*(GLfloat)h/(GLfloat)w, 
-        -160.0*(GLfloat)h/(GLfloat)w, -10.0, 10.0);
+    glOrtho (-160.0, 160.0, -160.0*(GLfloat)h/(GLfloat)w, 
+        160.0*(GLfloat)h/(GLfloat)w, -10.0, 10.0);
     else 
     glOrtho (-160.0*(GLfloat)w/(GLfloat)h, 
         160.0*(GLfloat)w/(GLfloat)h, -160.0, 160.0, -10.0, 10.0);
