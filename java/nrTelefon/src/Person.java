@@ -2,13 +2,13 @@
 public class Person {
     String surname;
     String name;
-    int telephoneNumber;
-    public Person(String surname,String name,int telephoneNumber){
+    String telephoneNumber;
+    public Person(String surname,String name,String telephoneNumber){
         this.surname=surname;
         this.name=name;
         this.telephoneNumber=telephoneNumber;
     }
-    public int getTelephoneNumber()
+    public String getTelephoneNumber()
     {
         return this.telephoneNumber;
     }

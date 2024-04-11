@@ -19,7 +19,7 @@ public class Main {
                 //0 name
                 //1 surname
                 //2 telephone number
-                Person tempPerson = new Person(temp[1], temp[0], Integer.parseInt(temp[2]));
+                Person tempPerson = new Person(temp[1], temp[0], temp[2]);
                 fileBuffer.add(tempPerson);
             }
         } catch (FileNotFoundException e) {
@@ -28,6 +28,7 @@ public class Main {
         int bufferSize = fileBuffer.size();
         //SARCINA 1:Sortare persoane
         //========================================================================================================
+        System.out.println("Sarcina 1:");
         for (int i = 0; i < bufferSize; i++) {
             System.out.println(fileBuffer.get(i));
         }
@@ -53,11 +54,10 @@ public class Main {
         }
         //SARCINA 2:Afisare numere telefon ce se repeta
         //========================================================================================================
-        HashMap<Integer, Integer> phoneNumberMap = new HashMap<Integer, Integer>();
-        //Phone number:counter
-        System.out.println("===========================");
+        HashMap<String,Integer> phoneNumberMap=new HashMap<>();
+        System.out.println("Sarcina 2:");
         for (int i = 0; i < bufferSize; i++) {
-            int temp = fileBuffer.get(i).getTelephoneNumber();
+            String temp = fileBuffer.get(i).getTelephoneNumber();
             if (phoneNumberMap.containsKey(temp)) {
                 int counter = phoneNumberMap.get(temp);
                 counter++;
@@ -65,19 +65,17 @@ public class Main {
             } else
                 phoneNumberMap.put(temp, 1);
         }
-
         try {
-            int mapSize = phoneNumberMap.size();
             File outputFile2=new File("output2.txt");
-            outputFile2.createNewFile() ;
+            outputFile2.createNewFile();
             Path path = Paths.get(outputFile2.getPath());
             byte temp[] = {};
             Files.write(path, temp, StandardOpenOption.TRUNCATE_EXISTING);
-            temp=new byte[1];
-            for (Map.Entry<Integer, Integer> set : phoneNumberMap.entrySet()) {
-                int tempNumber = set.getValue();
+            for (Map.Entry<String, Integer> set : phoneNumberMap.entrySet()) {
+                Integer tempNumber = set.getValue();
                 if (tempNumber >= 2) {
-                    temp[0] = (byte) (tempNumber+48);//problema cand contorul este mai mare sau egal cu 10
+                    temp=Integer.toString(tempNumber).getBytes();
+                    System.out.println(temp);
                     Files.write(path, temp, StandardOpenOption.APPEND);
                 }
             }
@@ -86,6 +84,5 @@ public class Main {
             System.out.println(e.getMessage());
             System.out.println(e.getCause());
         }
-
     }
 }
