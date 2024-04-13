@@ -1,4 +1,6 @@
 
+import com.sun.source.tree.Tree;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,7 +12,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Person> fileBuffer = new ArrayList<Person>();
+        ArrayList<Person> fileBuffer = new ArrayList<>();
         try {
             File fileInput = new File("input.txt");
             Scanner fileRead = new Scanner(fileInput);
@@ -29,14 +31,14 @@ public class Main {
         //SARCINA 1:Sortare persoane
         //========================================================================================================
         System.out.println("Sarcina 1:");
-        for (int i = 0; i < bufferSize; i++) {
-            System.out.println(fileBuffer.get(i));
-        }
+        //for (int i = 0; i < bufferSize; i++) {
+           // System.out.println(fileBuffer.get(i));
+        //}
         System.out.println("===========================");
         Collections.sort(fileBuffer, new PersonComparator());//redefinire interfata de comparare
-        for (int i = 0; i < bufferSize; i++) {
-            System.out.println(fileBuffer.get(i));
-        }
+        //for (int i = 0; i < bufferSize; i++) {
+        //    System.out.println(fileBuffer.get(i));
+       // }
         try {
             File outputFile=new File("output.txt");
             outputFile.createNewFile();
@@ -54,32 +56,34 @@ public class Main {
         }
         //SARCINA 2:Afisare numere telefon ce se repeta
         //========================================================================================================
-        HashMap<String,Integer> phoneNumberMap=new HashMap<>();
         System.out.println("Sarcina 2:");
-        for (int i = 0; i < bufferSize; i++) {
-            String temp = fileBuffer.get(i).getTelephoneNumber();
-            if (phoneNumberMap.containsKey(temp)) {
-                int counter = phoneNumberMap.get(temp);
+        HashMap<String,Integer> phoneNumberMap=new HashMap<>();
+        for (Person person : fileBuffer) {
+            String phoneNumber = person.getTelephoneNumber();
+            if (phoneNumberMap.containsKey(phoneNumber)) {
+                int counter = phoneNumberMap.get(phoneNumber);
                 counter++;
-                phoneNumberMap.replace(temp, counter);
+                phoneNumberMap.replace(phoneNumber, counter);
             } else
-                phoneNumberMap.put(temp, 1);
+                phoneNumberMap.put(phoneNumber, 1);
+
         }
+        System.out.println(phoneNumberMap);
         try {
             File outputFile2=new File("output2.txt");
             outputFile2.createNewFile();
             Path path = Paths.get(outputFile2.getPath());
             byte temp[] = {};
             Files.write(path, temp, StandardOpenOption.TRUNCATE_EXISTING);
-            for (Map.Entry<String, Integer> set : phoneNumberMap.entrySet()) {
-                Integer tempNumber = set.getValue();
-                if (tempNumber >= 2) {
-                    temp=Integer.toString(tempNumber).getBytes();
-                    System.out.println(temp);
-                    Files.write(path, temp, StandardOpenOption.APPEND);
+            for (Map.Entry<String, Integer> entry : phoneNumberMap.entrySet()) {
+                if(entry.getValue()>=2) {
+                    {
+                        System.out.println(entry.getKey());
+                        byte writeBuffer[]=(entry.getKey()+"\n").getBytes();
+                        Files.write(path,writeBuffer,StandardOpenOption.APPEND);
+                    }
                 }
             }
-
         } catch (IOException e) {
             System.out.println(e.getMessage());
             System.out.println(e.getCause());
