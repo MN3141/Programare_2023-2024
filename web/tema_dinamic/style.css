@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(196, 192, 192);
+    color: black;
+    font-size: 100%;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(136, 133, 133);
+}
+
+#menu li {
+    display: inline;
+    font-size: 200%;
+}
+
+#menu a:hover {
+    background-color: rgb(10, 184, 253);
+    animation-name: color-change;
+    animation-duration: 1s;
+}
+
+#menu a:link {
+    color: rgb(10, 184, 253);
+}
+
+@keyframes color-change {
+    50% {
+        background-color: rgb(1, 41, 56);
+    }
+
+    100% {
+        background-color: rgb(1, 222, 246);
+    }
+}
