@@ -73,3 +73,7 @@ Python:
 	dir(obiect) #afisare metode si membrii sai
 	help()#afisare documentatie
 	help(obiect)#afisare documentatie obiect
+=============================================================================================
+Node Package Manager:
+	npx create-react-app *nume_director* //nxp=Node Package Execute
+	npm start//pornire server local
