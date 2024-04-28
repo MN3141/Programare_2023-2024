@@ -77,3 +77,9 @@ Python:
 Node Package Manager:
 	npx create-react-app *nume_director* //nxp=Node Package Execute
 	npm start//pornire server local
+	npm run build
+=============================================================================================	
+Node:
+	node //intrare in interpretor
+	node cod.js //rulare cod JavaScript
+	.exit //iesire din interpretor
