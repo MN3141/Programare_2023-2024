@@ -42,6 +42,8 @@ VS Code:
 	g++ -g test.cpp -pt depanare
 	gcc -S program.c -creare cod sursa in x86
 	g++ -S program.cpp 
+	gcc/g++ main.c -o *nume_fisier_executabi"
+	gcc/g++ -c main.c -genereaza doar fisierul obiect,nu si cel executabil
 =============================================================================================
 Java:
 	javac program.java
