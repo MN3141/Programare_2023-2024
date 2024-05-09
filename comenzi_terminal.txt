@@ -78,6 +78,8 @@ Python:
 =============================================================================================
 Node Package Manager:
 	npx create-react-app *nume_director* //nxp=Node Package Execute
+	npm init -y //initializare proiecte simple
+	npm install -g nodemon //pt repornirea server-ului
 	npm start//pornire server local
 	npm run build
 =============================================================================================	
