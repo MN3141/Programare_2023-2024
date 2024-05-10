@@ -32,6 +32,8 @@ BASH:
 	nano ;editor de text; Ctrl+x pt a iesi din el
 	mv *fisier* *director*
 	mv *nume1Fisier* *nume2Fisier*;redenumire fisiere/directoare
+	ping *adresaIP*
+	ifconfig ;vizualizare adresa IP(v. ipconfig din CMD)
 =============================================================================================
 VS Code:
 	code . -Lansare VS Code
@@ -67,6 +69,8 @@ CMD:
 	curl -O *adresa web descarcare*;descarca fisierul cu numele sau original
 	winget install --id Cloudflare.cloudflared;pt server
 	cloudflared access ssh-config -hostname ssh.rudylinuxserver.com;accesare server Sado
+	ping *adresaIP*
+	ipconfig ;vizualizare adresa IP(v. ifconfig din BASH)
 =============================================================================================
 Python:
 	py #interpretor python

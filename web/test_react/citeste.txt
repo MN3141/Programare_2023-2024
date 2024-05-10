@@ -1,0 +1,8 @@
+VS Code Live Server:
+	-folosit pt a reincarca pagina html
+	-ruleaza fisierul folosind adresa locala(127.0.0.1)
+	-DACA index.html NU ESTE GASIT IN RADACINA DIRECTORULUI
+	 ATUNCI VA FI AFISAT INTREG ARBORELE CU FISIERE!
+daca fisierul 'index.html' din radacina proiectului este scos
+atunci,va fi afisat arborele cu directoarele si fisierele
+aplicatiei
