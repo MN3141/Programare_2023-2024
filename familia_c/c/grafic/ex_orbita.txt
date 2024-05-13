@@ -1,0 +1,94 @@
+#include "../include/glos.h"
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glaux.h>
+#include<math.h>
+//Cercuri in orbita
+#define pi 3.141
+void myinit(void);
+void CALLBACK display(void);
+void CALLBACK myReshape(GLsizei w, GLsizei h);
+float radius = 3;
+float delta = 0;
+const float angle_step = 0.1;
+const float angulus0 = 0;
+const float angulus1 = pi;
+const float angulus2 = 3*pi/2;
+GLUquadric* obj = NULL;
+static GLfloat x = 0;
+
+void myinit(void) {
+    glClearColor(1.0, 1.0, 1.0, 1.0);
+    obj = gluNewQuadric();
+    gluQuadricDrawStyle(obj, GLU_FILL);
+}
+
+void CALLBACK rot0()
+{
+    delta += angle_step;
+}
+void CALLBACK rot1()
+{
+    delta -= angle_step;
+}
+void CALLBACK reset()
+{
+    delta = 0;
+}
+void drawCircle(float r)
+{
+    glPushMatrix();
+    gluDisk(obj, 0, r, 20, 1);
+    glPopMatrix();
+}
+void CALLBACK display(void)
+{
+    glClear(GL_COLOR_BUFFER_BIT);
+    glLoadIdentity();
+    glColor3ub(0, 0, 0);
+   // drawCircle(radius);
+    glPushMatrix();
+    glTranslatef(radius*cos(angulus0 + delta),radius*sin(angulus0 + delta),0);
+    glColor3ub(255, 0, 0);
+    drawCircle(radius/4);
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(radius * cos(angulus1+delta), radius * sin(angulus1+delta), 0);
+    glColor3ub(0, 255, 0);
+    drawCircle(radius / 4);
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(radius * cos(angulus2 + delta), radius * sin(angulus2 + delta), 0);
+    glColor3ub(0, 0, 255);
+    drawCircle(radius / 4);
+    glPopMatrix();
+    glFlush();
+}
+void CALLBACK myReshape(GLsizei w, GLsizei h)
+{
+    if (!h) return;
+    glViewport(0, 0, w, h);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    if (w <= h)
+        glOrtho(-10, 10, -10.0 * (GLfloat)h / (GLfloat)w,
+            10.0 * (GLfloat)h / (GLfloat)w, -10, 10.0);
+    else
+        glOrtho(-10, 10, -10.0 * (GLfloat)h / (GLfloat)w,
+            10.0 * (GLfloat)h / (GLfloat)w, -10, 10.0);
+    glMatrixMode(GL_MODELVIEW);
+}
+
+int main(int argc, char** argv)
+{
+    auxInitDisplayMode(AUX_SINGLE | AUX_RGB);
+    auxInitPosition(0, 0, 1000, 200);
+    auxInitWindow("Orbita");
+    myinit();
+    auxKeyFunc(AUX_LEFT, rot0);
+    auxKeyFunc(AUX_RIGHT, rot1);
+    auxKeyFunc(AUX_r, reset);
+   auxReshapeFunc(myReshape);
+    auxMainLoop(display);
+    return(0);
+}
