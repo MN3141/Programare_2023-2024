@@ -38,14 +38,14 @@ BASH:
 VS Code:
 	code . -Lansare VS Code
 	code *numeFisier*
-	g++ program.cpp
-	gcc program.c
-	./a.exe
-	g++ -g test.cpp -pt depanare
-	gcc -S program.c -creare cod sursa in x86
-	g++ -S program.cpp 
-	gcc/g++ main.c -o *nume_fisier_executabi"
+=============================================================================================
+GCC:
+	gcc/g++ program_sursa
+	gcc/g++ -E main.c -generare fisier generat de preprocesor
+	gcc/g++ -S program_sursa -creare cod sursa in limbaj de asamblare 
 	gcc/g++ -c main.c -genereaza doar fisierul obiect,nu si cel executabil
+	gcc/g++ program_sursa -o *nume_fisier_executabi"
+	./a.exe
 =============================================================================================
 Java:
 	javac program.java
