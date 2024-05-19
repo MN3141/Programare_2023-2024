@@ -34,6 +34,14 @@ BASH:
 	mv *nume1Fisier* *nume2Fisier*;redenumire fisiere/directoare
 	ping *adresaIP*
 	ifconfig ;vizualizare adresa IP(v. ipconfig din CMD)
+	. ;indica directorul curent
+	  ex:./script.sh, code .,start .
+	top ;vizualizare procese ce ruleaza
+	chmod *mod* *nume_fisier* ;schimbare permisiuni fisiere
+	  ex:chmod +u task.sh ;permitere task.sh sa ruleze ca executabil 
+	crontab ;gestionare procese care sa ruleze la intervale regulate de timp
+	  ex: crontab -e ;editare
+	      crontab -l ;vizualizare cronjobs
 =============================================================================================
 VS Code:
 	code . -Lansare VS Code
