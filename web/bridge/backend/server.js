@@ -1,33 +1,21 @@
-const express = require('express');
-const { spawn } = require('child_process');
-const fs = require('fs');
-const scriptName = 'main.py';
-const app = express();
-const port = 5000;
-const fileName = "dummy";
-const fileExtension = ".txt";
-function runScript() {
-    app.get('/main', (req, resp) => {
-        resp.send('Hello Python!');
-        const pythonScript = spawn('python', [scriptName]);//generates dummy.txt
-    });
-    if (fs.existsSync(fileName + fileExtension)) {
-        console.log("Ita");
-        app.get('/' + fileName, (req, res) => {
-            fs.readFile(fileName + fileExtension, 'utf8', (err, data) => {
-                if (err) {
-                    console.log("ERROR!");
-                    res.status(500).send('Error reading file');
-                    return;
-                }
-                console.log(data);
-                res.send(data);
-            });
-        });
-    }
-    else console.log(fileName + ' does not exist!');
-    app.listen(port, () => {
-        console.log('Server is running on port ' + port);
-    });
-}
-runScript();
+const express=require('express');//gestionare memorie pt server
+const app=express();
+const port=5000;
+const cors = require('cors');//Cross Origin Resource Sharing
+const path=require('path');
+app.use(cors());
+
+app.listen(port,()=>{
+    console.log("Server running on port ",port);
+});
+app.get('/get',(req,res)=>{
+    const fileName="../test.json";
+    console.log("Sending file...");
+    //res.send("Sending file");//FARA SEND NU SE INCARCA PAGINA
+    const filePath = path.join(__dirname,fileName);//alegere cale relativ la directorul proiectului
+    res.sendFile(filePath, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+});
