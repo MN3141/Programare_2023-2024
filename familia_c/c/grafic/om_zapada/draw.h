@@ -2,5 +2,5 @@
 #define DRAW
 void light_init();
 void shadow_init();
-void draw_snow_man();
+void draw_snow_man(float animation_angle);
 #endif
