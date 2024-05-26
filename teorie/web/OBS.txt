@@ -1,9 +1,12 @@
 Port:
 	-cod pe 16b asociat unor procese
+	-zona de memorie accesata de aplicatie prin retea
 Adresa locala 127.0.0.1:
 	-folosita pt testare retea
 	-127.0.0.1:port
 		ex:127.0.0.1:3000 pt aplicatii in React
+Endpoint:
+	-adresa folosita de server pentru a trimite fisiere sau executa cod
 VS Code Live Server:
 	-folosit pt a reincarca pagina html
 	-ruleaza fisierul folosind adresa locala(127.0.0.1)
