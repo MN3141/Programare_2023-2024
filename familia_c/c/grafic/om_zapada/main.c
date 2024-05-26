@@ -9,7 +9,7 @@
 #define ANIMATION_THRESSHOLD0 90
 #define ANIMATION_THRESSHOLD1 -15
 
-int debug_angle = 0;
+int light_offset = 0;
 float animation_angle = 0;
 float camera_y = 0;
 float camera_x = 0;
@@ -18,16 +18,17 @@ void CALLBACK reset()
 {
     camera_x = 0;
     camera_y = 0;
+    light_offset = 0;
 }
-void CALLBACK debug_rot0()
+void CALLBACK light_move0()
 {
-    debug_angle = (debug_angle + 1) % 361;
-    printf("Rot0: %d\n", debug_angle);
+    light_offset =light_offset + 10;
+    printf("Light0: %d\n", light_offset);
 }
-void CALLBACK debug_rot1()
+void CALLBACK light_move1()
 {
-    debug_angle = (debug_angle - 1) % 361;
-    printf("Rot1: %d\n", debug_angle);
+    light_offset = light_offset - 10;
+    printf("Light1: %d\n", light_offset);
 }
 void CALLBACK wave0()
 {
@@ -79,8 +80,10 @@ void CALLBACK draw_scene(void)
     glLoadIdentity(); //resetare matrice vizualizare
 
     float snow_ambient[] = { 0.5,0.5,0.5,1 };
+    float light_pos2[] = { 0,200+light_offset,100,0 };
     glMaterialfv(GL_FRONT, GL_AMBIENT, snow_ambient);
-    glMaterialf(GL_FRONT, GL_SHININESS, 70);
+    glLightfv(GL_LIGHT0, GL_POSITION, light_pos2);
+    //glMaterialf(GL_FRONT, GL_SHININESS, 10);
 
     // oricare trei puncte din plan
     float plane_points[3][3] = {
@@ -92,7 +95,7 @@ void CALLBACK draw_scene(void)
     MatriceUmbra(plane_points, matrix_shadow);//determinã matricea pentru calcularea umbrei	
 
     gluLookAt(0, 0,1, camera_x, camera_y, 0, 0, 1, 0);//modifica matricea de vizualizare
-    glRotatef(debug_angle, 1, 0, 0);
+    //glRotatef(light_offset, 0, 1,0);
     glTranslatef(0, 0, -400);//deplasare obiect departe de utilizator
 
     glRotatef(20, 1, 0, 0);//rotire pe axa OX pt a vizualiza planul
@@ -143,8 +146,8 @@ void init()
     auxKeyFunc(AUX_UP, camera_up);
     auxKeyFunc(AUX_DOWN, camera_down);
     auxKeyFunc(AUX_r, reset);
-    auxKeyFunc(AUX_o, debug_rot0);
-    auxKeyFunc(AUX_p, debug_rot1);
+    auxKeyFunc(AUX_o, light_move0);
+    auxKeyFunc(AUX_p, light_move1);
     auxKeyFunc(AUX_a, wave0);
     auxKeyFunc(AUX_d, wave1);
     auxReshapeFunc(myReshape);

@@ -28,12 +28,12 @@ void draw_plane()
 {
 	//ordinea punctelor musai in ordine trigonometrica
 	glPushMatrix();
-	glColor3ub(255, 255, 0);
+	glColor3ub(27, 140, 50);
 	glBegin(GL_QUADS);
-	glVertex3f(500,-110,-500);
-	glVertex3f(500, -110, 500);
-	glVertex3f(-500, -110, 500);
-	glVertex3f(-500, -110, -500);
+	glVertex3f(500,-110,-1000);
+	glVertex3f(500, -110, 1000);
+	glVertex3f(-500, -110, 1000);
+	glVertex3f(-500, -110, -1000);
 	glEnd();
 	glPopMatrix();
 }
@@ -121,7 +121,7 @@ void draw_snow_man(float animation_angle)
 	glPopMatrix();
 
 	glPushMatrix(); 
-	glColor3ub(195, 195, 195);
+	glColor3ub(255, 0, 0);
 	glTranslatef(0, radius + 3 * radius / 4 + radius / 2, 0);
 	glRotatef(-90, 1, 0, 0);
 	auxSolidCone(radius / 2 -10, 2*radius); //hat
@@ -132,8 +132,9 @@ void draw_snow_man(float animation_angle)
 	//glColor4b(255, 133, 51, 1);
 	glTranslatef(0, radius + 3 * radius / 4 + radius / 2 , radius/4+10);
 	glRotatef(39, 1, 0, 0);
-	float nose_color[] = { 1., 0.52, 0.2, 1.0 }; // Orange color
-	glMaterialfv(GL_FRONT, GL_DIFFUSE, nose_color);
+	//float nose_color[] = { 1., 0.52, 0.2, 1.0 }; // Orange color
+	//glMaterialfv(GL_FRONT, GL_DIFFUSE, nose_color);
+	glColor3ub(210,84,0);
 	auxSolidCone(radius / 4, radius / 4 +20);//nose
 	glPopMatrix();
 	
