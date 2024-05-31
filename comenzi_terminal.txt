@@ -79,6 +79,8 @@ CMD:
 	cloudflared access ssh-config -hostname ssh.rudylinuxserver.com;accesare server Sado
 	ping *adresaIP*
 	ipconfig ;vizualizare adresa IP(v. ifconfig din BASH)
+	set ;afisare variabile de sistem
+		set > fisier
 =============================================================================================
 Python:
 	py #interpretor python
