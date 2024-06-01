@@ -22,6 +22,7 @@ Git Bash:
 	git checkout -b *nume branch*;creare ramura noua din main si comutare spre aceasta
 		;practic,executa:git branch *nume branch*
 				 git checkout *nume branch*
+	git merge *branch* imbina ramura curenta cu *branch*
 	git branch --set-upstream-to=origin/<*nume ramura*>
 	git status ;status-ul fisierelor
 	git reset --hard head~numar ;pt a reveni la o stare anterioare cu numar pasi inapoi
