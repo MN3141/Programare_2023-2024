@@ -5,6 +5,8 @@ Adaugare java,java in PATH:
 	System Variables>Path>Adaugare %JTerminal%\bin
 =====================================================================================================================================================================================
 Git Bash:
+	branch-pointer
+	commit-imagine a proiectului la un moment dat
 	git init
 	git add 
 	git commit -m ' '
@@ -14,9 +16,12 @@ Git Bash:
 	git config --global user.email
 	git config --global user.name
 	git branch *afisare ramuri
-	git branch *nume ramura noua*
-	git checkout *nume branch* 
-	git checkout -b *nume ramura noua*
+	git branch *nume ramura noua* ;crearea ramura noua
+	git branch -d *nume branch*; steregere ramura mentionata
+	git checkout *nume branch* ; comutare spre ramura mentionata
+	git checkout -b *nume branch*;creare ramura noua din main si comutare spre aceasta
+		;practic,executa:git branch *nume branch*
+				 git checkout *nume branch*
 	git branch --set-upstream-to=origin/<*nume ramura*>
 	git status ;status-ul fisierelor
 	git reset --hard head~numar ;pt a reveni la o stare anterioare cu numar pasi inapoi
