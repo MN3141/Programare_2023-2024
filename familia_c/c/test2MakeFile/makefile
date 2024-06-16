@@ -10,9 +10,11 @@ all: obj_files
 	@echo $(test_input)
 	@echo $(compiler)
 	@echo Finished building project
-obj_files: $(OBJS)
+obj_files:src_files
 	$(compiler) $(OBJS) -o output
 	$(compiler) -S $(SRCS)
+src_files: $(SRCS)
+	$(compiler) -c $(SRCS)
 clean:
 #need to fix this rule
 	@rm *.o *.s *.exe 
