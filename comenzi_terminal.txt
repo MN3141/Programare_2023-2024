@@ -96,10 +96,17 @@ CMD:
 Python:
 	py #interpretor python
 	py *fisier.py* #rulare fisier.py
-	venv #virtual enviroment
 	dir(obiect) #afisare metode si membrii sai
 	help()#afisare documentatie
 	help(obiect)#afisare documentatie obiect
+	pip list# afisare module instalate
+	pip show *nume_modul* #afisare date(incluzand si calea in calculator) despre modul
+	python -m venv *director_venv* #creare venv in directorul specificat
+	python # executabil
+	python -V #afisare versiune curenta 
+	pip -V #afisare versiune curenta
+	pip #modul de python folosit pt a gestiona pachete pt versiuni diferite de python
+	python -m pip install *nume_pachet* #apelare pip folosind varianta curenta de python 
 =============================================================================================
 Node Package Manager:
 	npx create-react-app *nume_director* //nxp=Node Package Execute
