@@ -38,7 +38,7 @@ Git Bash:
 	git rm *fisier* --cached;stergere din .git,dar NU si din memorie
 	q ;iesire din lista(pager) precum cea rezultata din log
 	curl;vezi comenzile din CMD
-=============================================================================================
+=====================================================================================================================================================================================
 BASH:
 	nano ;editor de text; Ctrl+x pt a iesi din el
 	mv *fisier* *director*
@@ -53,11 +53,11 @@ BASH:
 	crontab ;gestionare procese care sa ruleze la intervale regulate de timp
 	  ex: crontab -e ;editare
 	      crontab -l ;vizualizare cronjobs
-=============================================================================================
+=====================================================================================================================================================================================
 VS Code:
 	code . -Lansare VS Code
 	code *numeFisier*
-=============================================================================================
+=====================================================================================================================================================================================
 GCC:
 	gcc/g++ program_sursa
 	gcc/g++ -E main.c -generare fisier generat de preprocesor
@@ -65,18 +65,18 @@ GCC:
 	gcc/g++ -c main.c -genereaza doar fisierul obiect,nu si cel executabil
 	gcc/g++ program_sursa -o *nume_fisier_executabi"
 	./a.exe
-=============================================================================================
+=====================================================================================================================================================================================
 Java:
 	javac program.java
 	java program
-=============================================================================================
+=====================================================================================================================================================================================
 DOS:
 	type -afisare text
 	dir /w wide
 	dir /p prompt
 	dir /ad all directories
 	exit sau shutdown
-=============================================================================================
+=====================================================================================================================================================================================
 CMD:
 	start *fisier.txt* ;deschide fisierul text
 	start notepad++ *fisier.txt*;deschide fisierul text cu notepad++
@@ -92,7 +92,7 @@ CMD:
 	ipconfig ;vizualizare adresa IP(v. ifconfig din BASH)
 	set ;afisare variabile de sistem
 		set > fisier
-=============================================================================================
+=====================================================================================================================================================================================
 Python:
 	py #interpretor python
 	py *fisier.py* #rulare fisier.py
@@ -107,14 +107,17 @@ Python:
 	pip -V #afisare versiune curenta
 	pip #modul de python folosit pt a gestiona pachete pt versiuni diferite de python
 	python -m pip install *nume_pachet* #apelare pip folosind varianta curenta de python 
-=============================================================================================
+	pip freeze > requirements.txt #generare fisier pt modulele necesare(ideal dupa crearea unui venv)
+	pip install -r requirements.txt #instalare module necesare(pt utilizator)
+	
+=====================================================================================================================================================================================
 Node Package Manager:
 	npx create-react-app *nume_director* //nxp=Node Package Execute
 	npm init -y //initializare proiecte simple
 	npm install -g nodemon //pt repornirea server-ului
 	npm start//pornire server local
 	npm run build
-=============================================================================================	
+=====================================================================================================================================================================================
 Node:
 	node //intrare in interpretor
 	node cod.js //rulare cod JavaScript
