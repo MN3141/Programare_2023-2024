@@ -1,0 +1,27 @@
+table{
+    text-align: center;
+    
+}
+/* alternare fundal rand dupa paritate*/
+tr:nth-child(even)
+{
+    background-color: aqua;
+}
+tr:nth-child(odd)
+{
+    background-color:brown;
+}
+/* alternare fundal rand dupa paritate*/
+th { 
+    font-family:cursive;
+    border: 5px solid ;
+    border-color: black;
+}
+td{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid ;
+    border-color: black;
+}
+p:first-child{
+    color: red;
+}
