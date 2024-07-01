@@ -1,0 +1,4 @@
+Dockerfile>Imagine>Container
+Containerele pot fi gestionate usor din Docker Desktop
+Imaginile create nu se afla in proiectul local,ci undeva ascunse in PC
+Se pot rula mai multe containere automat folosind compose.yaml

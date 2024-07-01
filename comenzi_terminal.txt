@@ -124,3 +124,9 @@ Node:
 	node //intrare in interpretor
 	node cod.js //rulare cod JavaScript
 	.exit //iesire din interpretor
+=====================================================================================================================================================================================
+Docker:
+	docker ps ;afisare containere
+	docker build -t *numeTag* *locatie* ;creare imagine 
+	docker run *id ;rulare container din imagine 
+	docker image ls ;afisare imagini
