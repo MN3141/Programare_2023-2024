@@ -36,8 +36,8 @@ Git Bash:
 	git log;pt a vizualiza commit-urile
 	gir rm *fisier*;stergere din .git si din memorie
 	git rm *fisier* --cached;stergere din .git,dar NU si din memorie
-	q ;iesire din lista(pager) precum cea rezultata din log
-	curl;vezi comenzile din CMD
+	git diff ;vizualizare diferente in cadrul unui workspace
+	git difftool ;vizualizare diferente folosind o varianta de vim
 =====================================================================================================================================================================================
 BASH:
 	nano ;editor de text; Ctrl+x pt a iesi din el
@@ -53,6 +53,8 @@ BASH:
 	crontab ;gestionare procese care sa ruleze la intervale regulate de timp
 	  ex: crontab -e ;editare
 	      crontab -l ;vizualizare cronjobs
+	q ;iesire din lista(pager) precum cea rezultata din log
+	curl;vezi comenzile din CMD
 =====================================================================================================================================================================================
 VS Code:
 	code . -Lansare VS Code
