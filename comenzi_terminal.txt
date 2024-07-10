@@ -55,6 +55,7 @@ BASH:
 	      crontab -l ;vizualizare cronjobs
 	q ;iesire din lista(pager) precum cea rezultata din log
 	curl;vezi comenzile din CMD
+	gzip -d *fisier.gz*;dezarhivare arhiva *.gz
 =====================================================================================================================================================================================
 VS Code:
 	code . -Lansare VS Code
@@ -66,6 +67,8 @@ GCC:
 	gcc/g++ -S program_sursa -creare cod sursa in limbaj de asamblare 
 	gcc/g++ -c main.c -genereaza doar fisierul obiect,nu si cel executabil
 	gcc/g++ program_sursa -o *nume_fisier_executabi"
+	gcc --coverage -generare fisiere pentru code coverage
+	gcov - generare raport pentru code coverage
 	./a.exe
 =====================================================================================================================================================================================
 Java:
