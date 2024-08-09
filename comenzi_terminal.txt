@@ -62,14 +62,14 @@ VS Code:
 	code *numeFisier*
 =====================================================================================================================================================================================
 GCC:
-	gcc/g++ program_sursa
-	gcc/g++ -E main.c -generare fisier generat de preprocesor
-	gcc/g++ -S program_sursa -creare cod sursa in limbaj de asamblare 
-	gcc/g++ -c main.c -genereaza doar fisierul obiect,nu si cel executabil
-	gcc/g++ program_sursa -o *nume_fisier_executabi"
-	gcc --coverage -generare fisiere pentru code coverage
-	gcov - generare raport pentru code coverage
-	./a.exe
+	gcc sursa.c ;produce un fisier executabil
+	gcc -E sursa.c  ;generare fisier oferit de preprocesor
+	gcc -S sursa.c  ;creare cod sursa in limbaj de asamblare 
+	gcc -c sursa.c  ;genereaza doar fisierul obiect,nu si cel executabil
+	gcc sursa.c  -o *nume_fisier_executabil* ;genereaza fisierul executabil cu numele ales
+	gcc sursa.c -I*cale_fisier_antet* ;include fisiere de tip *.h
+	gcc sursa.c --coverage ;generare fisiere pentru code coverage(ccov)
+	gcov ;generare raport pentru code coverage
 =====================================================================================================================================================================================
 Java:
 	javac program.java
@@ -97,6 +97,8 @@ CMD:
 	ipconfig ;vizualizare adresa IP(v. ifconfig din BASH)
 	set ;afisare variabile de sistem
 		set > fisier
+	setx VAR valoare ;setare variabila de sistem la nivel de utilizator
+	setx /M VAR valoare ;setare variabila de sistem la nivel de sistem
 =====================================================================================================================================================================================
 Python:
 	py #interpretor python
