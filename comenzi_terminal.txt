@@ -100,6 +100,14 @@ CMD:
 		set > fisier
 	setx VAR valoare ;setare variabila de sistem la nivel de utilizator
 	setx /M VAR valoare ;setare variabila de sistem la nivel de sistem
+	ren ;rename
+	rmdir /s /q ;eliminare director 
+	del ;eliminare fisier
+	copy SURSA DESTINATIE ;copiere fisier 
+	move SURSA DESTINATIE ;mutare fisier
+	reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FontName (TrueType)" /t REG_SZ /d %FONT% /f ;instalare font
+		;OBS: fontul trebuie intai mutat in directorul Fonts (move  %FONT_DIR%\%FONT% %WINDIR%\Fonts)
+	tar -xf arhiza.zip ;dezarhivare fisier
 =====================================================================================================================================================================================
 Python:
 	py #interpretor python
