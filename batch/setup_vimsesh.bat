@@ -33,7 +33,7 @@ echo "Fetching main repo"
 
 C:
 cd %APPDATA_PATH%
-git clone https://github.com/AndreiSaldorfean/VimSesh.git
+git clone https://github.com/AndreiSaldorfean/VimSesh.git nvim
 
 echo "Finished installing the repo"
 
