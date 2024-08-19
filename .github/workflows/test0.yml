@@ -2,7 +2,7 @@ name: TEST0
 on: [push]
 jobs:
     job0:
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
         steps:
             - run: echo "You have made a push"
             

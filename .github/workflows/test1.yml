@@ -1,13 +1,14 @@
-name: TEST1
+name: Shell test
 on: 
     push:
         branches:
           - 'main'
           - '1-jenkins-vs-githubaction-vs-bamboo'
 jobs:
-    job0:
+    date_print:
         runs-on: ubuntu-latest
         steps:
             - run: echo "You have made a push"
-            - run: $(pwd)
+            - run: $(date)
+            # This is a comment
             
