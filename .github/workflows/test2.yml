@@ -5,8 +5,14 @@ on:
     - cron: "*/1 * * * *"
     # This shall run every minute
 jobs:
-    schedule_test:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - run : echo "Accesing local repo"
+  schedule_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Access local repo
+        run: |
+          echo "Accessing local repo"
+          ls -la
+          pwd

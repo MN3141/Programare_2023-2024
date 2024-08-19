@@ -5,10 +5,11 @@ on:
           - 'main'
           - '1-jenkins-vs-githubaction-vs-bamboo'
 jobs:
-    date_print:
+    shell_commands:
         runs-on: ubuntu-latest
         steps:
-           - name : Running bash commands
-             run: |
+            - name: "Shell"
+              run: |
                 echo "TEST"
                 ls -la
+            #It looks that a step must have a name in order for bash commands to run
