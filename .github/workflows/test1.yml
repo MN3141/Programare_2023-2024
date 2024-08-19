@@ -8,7 +8,7 @@ jobs:
     date_print:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "You have made a push"
-            - run: $(date)
-            # This is a comment
-            
+           - name : Running bash commands
+             run: |
+                echo "TEST"
+                ls -la

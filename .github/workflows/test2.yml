@@ -9,6 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - run : "Accesing local repo"
-            - run: $(ls -la)
-
+            - run : echo "Accesing local repo"
