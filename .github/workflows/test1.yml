@@ -1,0 +1,13 @@
+name: TEST1
+on: 
+    push:
+        branches:
+          - 'main'
+          - '1-jenkins-vs-githubaction-vs-bamboo'
+jobs:
+    job0:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "You have made a push"
+            - run: $(pwd)
+            
