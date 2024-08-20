@@ -1,12 +1,12 @@
-name: Schedule test
+name: Acces repo test
 on:
     push :
-    schedule:
-    - cron: "* 1 * * *"
+    #schedule:
+    # - cron: "* 1 * * *"
     # This shall run every hour
     # See https://crontab.guru/
 jobs:
-  schedule_test:
+  acces:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -15,5 +15,6 @@ jobs:
       - name: Access local repo
         run: |
           echo "Accessing local repo"
+          date
           ls -la
           pwd
