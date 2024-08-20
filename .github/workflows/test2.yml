@@ -17,5 +17,3 @@ jobs:
           echo "Accessing local repo"
           ls -la
           pwd
-          cd .github\workflows
-          ls -la

@@ -12,4 +12,5 @@ jobs:
               run: |
                 echo "TEST"
                 ls -la
+                curl https://github.com/MN3141/Programare_2023-2024
             #It looks that a step must have a name in order for bash commands to run
