@@ -18,3 +18,4 @@ jobs:
           date
           ls -la
           pwd
+          py python/test.py
