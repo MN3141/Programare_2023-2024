@@ -1,10 +1,8 @@
 name: Acces repo test
-on:
-    push :
-    #schedule:
-    # - cron: "* 1 * * *"
-    # This shall run every hour
-    # See https://crontab.guru/
+on: 
+  push:
+      branches:
+          -main
 jobs:
   acces:
     runs-on: ubuntu-latest
