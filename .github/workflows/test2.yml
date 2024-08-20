@@ -18,4 +18,4 @@ jobs:
           date
           ls -la
           pwd
-          py python/test.py
+          cat python/wattage_data/wattage_data.py
