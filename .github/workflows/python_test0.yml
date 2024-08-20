@@ -9,6 +9,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        -run: ls -la
       - name: Set up Python
         # This is the version of the action for setting up Python, not the Python version.
         uses: actions/setup-python@v5
@@ -22,3 +23,7 @@ jobs:
         run: |
          python -c "import sys; print(sys.version)"
          python -V
+      - name : Install modules
+        run: |   
+         pip install -r python/requirements.txt
+         echo "Modules installed succesfully"
