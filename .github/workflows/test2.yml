@@ -1,0 +1,19 @@
+name: Acces repo test
+on: 
+  push:
+      branches:
+          -main
+jobs:
+  acces:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Access local repo
+        run: |
+          echo "Accessing local repo"
+          date
+          ls -la
+          pwd
+          cat python/wattage_data/wattage_data.py
