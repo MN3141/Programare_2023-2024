@@ -128,7 +128,9 @@ Python:
 	
 =====================================================================================================================================================================================
 Node Package Manager:
-	npx create-react-app *nume_director* //nxp=Node Package Execute
+	nxp=Node Package Execute
+	npx create-react-app *nume_director* // creare aplicatie in React
+	npx create-next-app //creare aplicatie in NextJS
 	npm init -y //initializare proiecte simple
 	npm install -g nodemon //pt repornirea server-ului
 	npm start//pornire server local
