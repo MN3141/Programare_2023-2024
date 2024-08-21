@@ -144,3 +144,13 @@ Docker:
 	docker build -t *numeTag* *locatie* ;creare imagine 
 	docker run *id ;rulare container din imagine 
 	docker image ls ;afisare imagini
+=====================================================================================================================================================================================
+Chocolatey:
+Nota: pentru instalare si dezinstalare e nevoie de modul administrator (ca sudo in Linux)
+Instalare Choclatey: 
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+	choco find *nume_pachet*
+	choco list ;afisare pachete instalate 
+	choco install *nume pachet*
+	choco uninstall *nume_pachet*
+=====================================================================================================================================================================================
