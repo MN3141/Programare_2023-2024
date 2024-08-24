@@ -1,2 +1,0 @@
-Pentru crearea de comenzi noi,noile fisiere *.bat se vor stoca in C:\Windows\System32.
-Alternativ, calea spre comanda poate fi adaugata in PATH
