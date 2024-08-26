@@ -3,16 +3,15 @@
 #Script for running NodeJS unit tests
 
 echo "Starting running unit tests for NodeJS"
-cd ../python
-pytest
-rm -rf .pytest_cache
+cd ../web
 
 dir_array=$(find . -type d)
 for dir in ${dir_array};
 do
-    if [ -d "$dir/__pycache__" ]; then
-        rm -rf $dir/__pycache__
+    npm ci #npm clean install
+    if [ -d "$dir/__test__" ]; then
+        npm run test
     fi
 done
 
-echo "Done testing for Python"
+echo "Done testing for NodeJS"

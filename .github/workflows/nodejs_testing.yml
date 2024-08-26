@@ -1,5 +1,6 @@
 name: NodeJS testing
 
+#this is an environment variable
 env:
     unit_test_script: cli_scripts/nodejs_unit_testing.sh
 on: [push]
@@ -21,12 +22,8 @@ jobs:
         with: 
              node-version: 20
 
-      - name: Install necessary packages
+      - name : Install necessary packages and run unit tests
         run: |
-          npm ci
-        # npm clean install
-
-      - name : Run unit tests
-        run: |
+          cd ..
           chmod u+rwx ./$unit_test_script
           ./$unit_test_script
