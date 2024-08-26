@@ -8,12 +8,12 @@ cd ../web
 dir_array=$(find . -type d)
 for dir in ${dir_array};
 do
-    npm ci #npm clean install
+    npm npm ci --install-links=false #npm clean install
 
     echo "======================="
     echo $dir
     echo "======================="
-    
+
     if [ -d "$dir/__test__" ]; then
         npm run test
     fi
