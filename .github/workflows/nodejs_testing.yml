@@ -25,5 +25,6 @@ jobs:
       - name : Install necessary packages and run unit tests
         run: |
           cd ..
+          pwd
           chmod u+rwx ./$unit_test_script
           ./$unit_test_script
