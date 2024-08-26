@@ -9,6 +9,11 @@ dir_array=$(find . -type d)
 for dir in ${dir_array};
 do
     npm ci #npm clean install
+
+    echo "======================="
+    echo $dir
+    echo "======================="
+    
     if [ -d "$dir/__test__" ]; then
         npm run test
     fi
