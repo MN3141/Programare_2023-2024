@@ -5,7 +5,7 @@
 echo "Starting running unit tests for NodeJS"
 cd ../web
 
-dir_array=$(find . -type d)
+dir_array=$(ls -d */)
 for dir in ${dir_array};
 do
     npm npm ci --install-links=false #npm clean install

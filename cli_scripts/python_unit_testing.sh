@@ -7,7 +7,7 @@ cd ../python
 pytest
 rm -rf .pytest_cache
 
-dir_array=$(find . -type d)
+dir_array=$(ls -d */)
 for dir in ${dir_array};
 do
     if [ -d "$dir/__pycache__" ]; then
