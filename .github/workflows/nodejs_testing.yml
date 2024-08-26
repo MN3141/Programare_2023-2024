@@ -1,0 +1,32 @@
+name: NodeJS testing
+
+env:
+    unit_test_script: cli_scripts/nodejs_unit_testing.sh
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name : Go to web directory
+        run: cd web
+
+      - name: Install nodejs 
+        uses: actions/setup-node@v4
+        with: 
+             node-version: 20
+
+      - name: Install necessary packages
+        run: |
+          npm ci
+        # npm clean install
+
+      - name : Run unit tests
+        run: |
+          chmod u+rwx ./$unit_test_script
+          ./$unit_test_script
