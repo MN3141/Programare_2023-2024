@@ -18,10 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with: 
              node-version: 20
-        
-      - name: Check npm
-        run: npm version
-        
+
       - name : Install necessary packages and run unit tests
         run: |
           cd cli_scripts
