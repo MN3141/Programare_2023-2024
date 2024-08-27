@@ -5,6 +5,9 @@
 echo "Starting running unit tests for NodeJS"
 cd ../web
 
+NPM_CMD=$(which npm)
+echo $NPM_CMD
+
 dir_array=$(ls -d */)
 for dir in ${dir_array};
 do
