@@ -12,7 +12,8 @@ dir_array=$(ls -d */)
 for dir in ${dir_array};
 do
     cd $dir 
-
+    echo $dir
+    
     npm ci #npm clean install
     # --install-links=false
     if [ -d "$dir/__test__" ]; then
