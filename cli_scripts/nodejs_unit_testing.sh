@@ -5,13 +5,13 @@
 echo "Starting running unit tests for NodeJS"
 cd ../web
 
-NPM_CMD=$(which npm)
-echo $NPM_CMD
+NPM_PATH=$(which npm)
+echo $NPM_PATH
 
 dir_array=$(ls -d */)
 for dir in ${dir_array};
 do
-    npm npm ci --install-links=false #npm clean install
+    npm ci --install-links=false #npm clean install
 
     echo "======================="
     echo $dir
