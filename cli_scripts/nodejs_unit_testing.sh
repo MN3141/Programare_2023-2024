@@ -11,15 +11,15 @@ echo $NPM_PATH
 dir_array=$(ls -d */)
 for dir in ${dir_array};
 do
-    npm ci --install-links=false #npm clean install
+    cd $dir 
 
-    echo "======================="
-    echo $dir
-    echo "======================="
-
+    npm ci #npm clean install
+    # --install-links=false
     if [ -d "$dir/__test__" ]; then
         npm run test
     fi
+
+    cd ..
 done
 
 echo "Done testing for NodeJS"
