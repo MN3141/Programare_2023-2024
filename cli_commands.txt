@@ -96,6 +96,8 @@ Git:
     git rm *file* --cached ; remove from .git, but NOT from memory
     git diff ; view differences within a workspace
     git difftool ; view differences using a vim variant
+    git log --all --decorate --oneline --graph ; log the branches visually on the terminal
+            also called git adog (se online forums for further settings)
 ================================================================================	
 Node Package Manager:
     npx create-react-app *directory_name* //npx = Node Package Execute
@@ -155,4 +157,10 @@ Docker:
     docker build -t *tagName* *location* ; create image
     `docker run id ; run container from image
     docker image ls ; display images
+================================================================================
+Act:
+
+    act -l ; list all available job in the repo
+    act -graph ; visually list all available job in the repo
+    act -j *job_name* ; run the specified job locally using a Docker container
 ================================================================================
