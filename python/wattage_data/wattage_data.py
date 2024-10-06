@@ -1,3 +1,5 @@
+## @package wattage_data
+
 '''
 The standard data format of the input file shall be:
 ==============================
@@ -12,23 +14,27 @@ import sys
 
 OUTPUT_FILE_NAME='measurements.xlsx'
 
+##System which represents the process of measuring and formating data
 class MeasurementData:
     measurement_device_name=''
     measurement_device_use=''
     measurement_device_data=''
+
+    ##Constructor
     def __init__(self,measurement_device_name,measurement_device_use,measurement_device_data):
         self.measurement_device_name=measurement_device_name
         self.measurement_device_use=measurement_device_use
         self.measurement_device_data=measurement_device_data
 
+##Function for reading data from a text file
 def get_raw_data(filename):
 
-    #fetch data from file
+    ##Fetch data from file
     fin=open(filename,'r')
     file_data=fin.readlines()
     fin.close()
 
-    #convert raw data from string to float
+    ##convert raw data from string to float
     raw_data=[]
     temp=file_data[2].split()
     number_of_data=len(temp)
@@ -38,6 +44,7 @@ def get_raw_data(filename):
     
     return MeasurementData(file_data[0],file_data[1],raw_data)
 
+##Function for writing the data into an excel file 
 def output_data(workbook,device,device_name):
     
  #workbook = xlsxwriter.Workbook(OUTPUT_FILE_NAME)
